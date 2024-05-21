@@ -7489,12 +7489,26 @@ a.anchor-link {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=f1f2ab9b-b561-4dd9-bfd0-a1efcb5abf93">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=b557826b-d594-4570-884e-72a609c32c0e">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#-----------------------PREGUNTA 1-------------------------------------</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=f1f2ab9b-b561-4dd9-bfd0-a1efcb5abf93">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">=</span><span class="s1">'https://github.com/Luis9193/Tarea_calificada_3/raw/main/appendData/'</span>
@@ -7508,7 +7522,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">number_list</span><span class="o">=</span><span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">5</span><span class="p">)</span>
@@ -7524,7 +7538,7 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[3]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[4]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>['level1.xlsx', 'level2.xlsx', 'level3.xlsx', 'level4.xlsx']</pre>
 </div>
@@ -7536,7 +7550,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">links</span><span class="o">=</span><span class="p">[</span><span class="n">data</span><span class="o">+</span><span class="n">fn</span> <span class="k">for</span> <span class="n">fn</span> <span class="ow">in</span> <span class="n">archivos_name</span><span class="p">]</span>
@@ -7551,7 +7565,7 @@ a.anchor-link {
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[4]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[5]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>['https://github.com/Luis9193/Tarea_calificada_3/raw/main/appendData/level1.xlsx',
  'https://github.com/Luis9193/Tarea_calificada_3/raw/main/appendData/level2.xlsx',
@@ -7561,7 +7575,64 @@ a.anchor-link {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=b4e59561-8e24-4071-90ad-da03536fff63">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=b4e59561-8e24-4071-90ad-da03536fff63">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="n">list_df</span> <span class="o">=</span> <span class="p">[</span><span class="n">pd</span><span class="o">.</span><span class="n">read_excel</span><span class="p">(</span><span class="n">link</span><span class="p">)</span> <span class="k">for</span> <span class="n">link</span> <span class="ow">in</span> <span class="n">links</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=e2a5af40-d19c-43cc-9a20-fd7b29c1cb22">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">nombres_columnas</span><span class="o">=</span><span class="p">[]</span>
+<span class="k">for</span> <span class="n">df</span> <span class="ow">in</span> <span class="n">list_df</span><span class="p">:</span>
+    <span class="n">nombres_columnas</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="p">))</span><span class="c1"># list of sets!</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=17d1f96a-ceb5-4aa5-8343-c7912496fba1">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">cols</span><span class="p">)</span> <span class="k">for</span> <span class="n">cols</span> <span class="ow">in</span> <span class="n">nombres_columnas</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[8]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>[16, 12, 15, 10]</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=a7ad4299-4854-4ae9-bcaf-1bf4d0570825">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7569,8 +7640,2608 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="n">list_df</span> <span class="o">=</span> <span class="p">[</span><span class="n">pd</span><span class="o">.</span><span class="n">read_excel</span><span class="p">(</span><span class="n">link</span><span class="p">)</span> <span class="k">for</span> <span class="n">link</span> <span class="ow">in</span> <span class="n">links</span><span class="p">]</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">columnas_igual</span><span class="o">=</span><span class="nb">set</span><span class="o">.</span><span class="n">intersection</span><span class="p">(</span><span class="o">*</span><span class="n">nombres_columnas</span><span class="p">)</span> <span class="c1"># expanding list of sets (*)</span>
+<span class="nb">len</span><span class="p">(</span><span class="n">columnas_igual</span><span class="p">),</span><span class="n">columnas_igual</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[9]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>(0, set())</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=c035700b-0505-4aec-971c-9ab25d1a2c4c">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">nombres_columnas</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[10]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>[{'Table 1. Human Development Index and its components ',
+  'Unnamed: 0',
+  'Unnamed: 10',
+  'Unnamed: 11',
+  'Unnamed: 12',
+  'Unnamed: 13',
+  'Unnamed: 14',
+  'Unnamed: 15',
+  'Unnamed: 2',
+  'Unnamed: 3',
+  'Unnamed: 4',
+  'Unnamed: 5',
+  'Unnamed: 6',
+  'Unnamed: 7',
+  'Unnamed: 8',
+  'Unnamed: 9'},
+ {'Country',
+  'Expected years of schooling',
+  'GNI per capita rank minus HDI rank',
+  'Gross national income (GNI) per capita',
+  'HDI rank',
+  'HDI rank.1',
+  'Human Development Index (HDI) ',
+  'Life expectancy at birth',
+  'Mean years of schooling',
+  'Unnamed: 10',
+  'Unnamed: 6',
+  'Unnamed: 8'},
+ {'Country',
+  'Expected years of schooling',
+  'GNI per capita rank minus HDI rank',
+  'Gross national income (GNI) per capita',
+  'HDI rank',
+  'HDI rank.1',
+  'Human Development Index (HDI) ',
+  'Life expectancy at birth',
+  'Mean years of schooling',
+  'Unnamed: 11',
+  'Unnamed: 13',
+  'Unnamed: 3',
+  'Unnamed: 5',
+  'Unnamed: 7',
+  'Unnamed: 9'},
+ {'Country',
+  'Expected years of schooling',
+  'GNI per capita rank minus HDI rank',
+  'Gross national income (GNI) per capita',
+  'HDI rank',
+  'Human Development Index (HDI) ',
+  'Life expectancy at birth',
+  'Mean years of schooling',
+  'Unnamed: 2',
+  'le'}]</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=1c8b2336-ed3e-4a38-a584-07acee791a03">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#comenzamos corrigiendo el primer dataframe</span>
+<span class="n">primer_df</span> <span class="o">=</span> <span class="n">list_df</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">primer_df</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[11]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>Unnamed: 0</th>
+<th>Table 1. Human Development Index and its components</th>
+<th>Unnamed: 2</th>
+<th>Unnamed: 3</th>
+<th>Unnamed: 4</th>
+<th>Unnamed: 5</th>
+<th>Unnamed: 6</th>
+<th>Unnamed: 7</th>
+<th>Unnamed: 8</th>
+<th>Unnamed: 9</th>
+<th>Unnamed: 10</th>
+<th>Unnamed: 11</th>
+<th>Unnamed: 12</th>
+<th>Unnamed: 13</th>
+<th>Unnamed: 14</th>
+<th>Unnamed: 15</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>1</th>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>SDG3</td>
+<td>NaN</td>
+<td>SDG4.3</td>
+<td>NaN</td>
+<td>SDG4.4</td>
+<td>NaN</td>
+<td>SDG8.5</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>2</th>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>3</th>
+<td>HDI rank</td>
+<td>Country</td>
+<td>Human Development Index (HDI)</td>
+<td>NaN</td>
+<td>Life expectancy at birth</td>
+<td>NaN</td>
+<td>Expected years of schooling</td>
+<td>NaN</td>
+<td>Mean years of schooling</td>
+<td>NaN</td>
+<td>Gross national income (GNI) per capita</td>
+<td>NaN</td>
+<td>GNI per capita rank minus HDI rank</td>
+<td>NaN</td>
+<td>HDI rank</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>4</th>
+<td>NaN</td>
+<td>NaN</td>
+<td>Value</td>
+<td>NaN</td>
+<td>(years)</td>
+<td>NaN</td>
+<td>(years)</td>
+<td>NaN</td>
+<td>(years)</td>
+<td>NaN</td>
+<td>(2017 PPP $)</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>...</th>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr>
+<th>67</th>
+<td>62</td>
+<td>Malaysia</td>
+<td>0.803</td>
+<td>NaN</td>
+<td>74.8839</td>
+<td>NaN</td>
+<td>13.34304</td>
+<td>NaN</td>
+<td>10.64506</td>
+<td>NaN</td>
+<td>26657.94355</td>
+<td>NaN</td>
+<td>-8</td>
+<td>NaN</td>
+<td>61</td>
+<td>VERY HIGH HUMAN DEVELOPMENT</td>
+</tr>
+<tr>
+<th>68</th>
+<td>63</td>
+<td>Georgia</td>
+<td>0.802</td>
+<td>NaN</td>
+<td>71.694</td>
+<td>NaN</td>
+<td>15.56852</td>
+<td>NaN</td>
+<td>12.82222</td>
+<td>NaN</td>
+<td>14664.16825</td>
+<td>NaN</td>
+<td>17</td>
+<td>NaN</td>
+<td>64</td>
+<td>VERY HIGH HUMAN DEVELOPMENT</td>
+</tr>
+<tr>
+<th>69</th>
+<td>63</td>
+<td>Mauritius</td>
+<td>0.802</td>
+<td>NaN</td>
+<td>73.5552</td>
+<td>NaN</td>
+<td>15.17353</td>
+<td>e</td>
+<td>10.42791</td>
+<td>e</td>
+<td>22025.34631</td>
+<td>NaN</td>
+<td>-1</td>
+<td>NaN</td>
+<td>62</td>
+<td>VERY HIGH HUMAN DEVELOPMENT</td>
+</tr>
+<tr>
+<th>70</th>
+<td>63</td>
+<td>Serbia</td>
+<td>0.802</td>
+<td>NaN</td>
+<td>74.1923</td>
+<td>NaN</td>
+<td>14.40009</td>
+<td>NaN</td>
+<td>11.36987</td>
+<td>NaN</td>
+<td>19123.02747</td>
+<td>NaN</td>
+<td>4</td>
+<td>NaN</td>
+<td>62</td>
+<td>VERY HIGH HUMAN DEVELOPMENT</td>
+</tr>
+<tr>
+<th>71</th>
+<td>66</td>
+<td>Thailand</td>
+<td>0.8</td>
+<td>NaN</td>
+<td>78.7154</td>
+<td>NaN</td>
+<td>15.882219</td>
+<td>m</td>
+<td>8.69712</td>
+<td>NaN</td>
+<td>17030.15352</td>
+<td>NaN</td>
+<td>6</td>
+<td>NaN</td>
+<td>64</td>
+<td>VERY HIGH HUMAN DEVELOPMENT</td>
+</tr>
+</tbody>
+</table>
+<p>72 rows × 16 columns</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=0765937b-b070-4da4-9d98-8aa3274da414">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">primer_df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">14</span><span class="p">]</span> <span class="o">=</span> <span class="s1">'HDI rank.1'</span>
+<span class="n">nuevos_nombres_col</span> <span class="o">=</span> <span class="n">primer_df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+<span class="n">primer_df</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="n">nuevos_nombres_col</span>
+<span class="n">primer_df</span><span class="o">.</span><span class="n">columns</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[12]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>Index([                              'HDI rank',
+                                      'Country',
+               'Human Development Index (HDI) ',
+                                            nan,
+                     'Life expectancy at birth',
+                                            nan,
+                  'Expected years of schooling',
+                                            nan,
+                      'Mean years of schooling',
+                                            nan,
+       'Gross national income (GNI) per capita',
+                                            nan,
+           'GNI per capita rank minus HDI rank',
+                                            nan,
+                                   'HDI rank.1',
+                                            nan],
+      dtype='object')</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=bd18a04e-bbfd-4fef-873e-25b3dfc39506">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">primer_df</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[13]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>HDI rank</th>
+<th>Country</th>
+<th>Human Development Index (HDI)</th>
+<th>NaN</th>
+<th>Life expectancy at birth</th>
+<th>NaN</th>
+<th>Expected years of schooling</th>
+<th>NaN</th>
+<th>Mean years of schooling</th>
+<th>NaN</th>
+<th>Gross national income (GNI) per capita</th>
+<th>NaN</th>
+<th>GNI per capita rank minus HDI rank</th>
+<th>NaN</th>
+<th>HDI rank.1</th>
+<th>NaN</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>1</th>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>SDG3</td>
+<td>NaN</td>
+<td>SDG4.3</td>
+<td>NaN</td>
+<td>SDG4.4</td>
+<td>NaN</td>
+<td>SDG8.5</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>2</th>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>3</th>
+<td>HDI rank</td>
+<td>Country</td>
+<td>Human Development Index (HDI)</td>
+<td>NaN</td>
+<td>Life expectancy at birth</td>
+<td>NaN</td>
+<td>Expected years of schooling</td>
+<td>NaN</td>
+<td>Mean years of schooling</td>
+<td>NaN</td>
+<td>Gross national income (GNI) per capita</td>
+<td>NaN</td>
+<td>GNI per capita rank minus HDI rank</td>
+<td>NaN</td>
+<td>HDI rank.1</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>4</th>
+<td>NaN</td>
+<td>NaN</td>
+<td>Value</td>
+<td>NaN</td>
+<td>(years)</td>
+<td>NaN</td>
+<td>(years)</td>
+<td>NaN</td>
+<td>(years)</td>
+<td>NaN</td>
+<td>(2017 PPP $)</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>...</th>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr>
+<th>67</th>
+<td>62</td>
+<td>Malaysia</td>
+<td>0.803</td>
+<td>NaN</td>
+<td>74.8839</td>
+<td>NaN</td>
+<td>13.34304</td>
+<td>NaN</td>
+<td>10.64506</td>
+<td>NaN</td>
+<td>26657.94355</td>
+<td>NaN</td>
+<td>-8</td>
+<td>NaN</td>
+<td>61</td>
+<td>VERY HIGH HUMAN DEVELOPMENT</td>
+</tr>
+<tr>
+<th>68</th>
+<td>63</td>
+<td>Georgia</td>
+<td>0.802</td>
+<td>NaN</td>
+<td>71.694</td>
+<td>NaN</td>
+<td>15.56852</td>
+<td>NaN</td>
+<td>12.82222</td>
+<td>NaN</td>
+<td>14664.16825</td>
+<td>NaN</td>
+<td>17</td>
+<td>NaN</td>
+<td>64</td>
+<td>VERY HIGH HUMAN DEVELOPMENT</td>
+</tr>
+<tr>
+<th>69</th>
+<td>63</td>
+<td>Mauritius</td>
+<td>0.802</td>
+<td>NaN</td>
+<td>73.5552</td>
+<td>NaN</td>
+<td>15.17353</td>
+<td>e</td>
+<td>10.42791</td>
+<td>e</td>
+<td>22025.34631</td>
+<td>NaN</td>
+<td>-1</td>
+<td>NaN</td>
+<td>62</td>
+<td>VERY HIGH HUMAN DEVELOPMENT</td>
+</tr>
+<tr>
+<th>70</th>
+<td>63</td>
+<td>Serbia</td>
+<td>0.802</td>
+<td>NaN</td>
+<td>74.1923</td>
+<td>NaN</td>
+<td>14.40009</td>
+<td>NaN</td>
+<td>11.36987</td>
+<td>NaN</td>
+<td>19123.02747</td>
+<td>NaN</td>
+<td>4</td>
+<td>NaN</td>
+<td>62</td>
+<td>VERY HIGH HUMAN DEVELOPMENT</td>
+</tr>
+<tr>
+<th>71</th>
+<td>66</td>
+<td>Thailand</td>
+<td>0.8</td>
+<td>NaN</td>
+<td>78.7154</td>
+<td>NaN</td>
+<td>15.882219</td>
+<td>m</td>
+<td>8.69712</td>
+<td>NaN</td>
+<td>17030.15352</td>
+<td>NaN</td>
+<td>6</td>
+<td>NaN</td>
+<td>64</td>
+<td>VERY HIGH HUMAN DEVELOPMENT</td>
+</tr>
+</tbody>
+</table>
+<p>72 rows × 16 columns</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=f1e30937-c4f8-41a3-9817-ff1a057be3df">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">primer_df</span> <span class="o">=</span> <span class="n">primer_df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">6</span><span class="p">:]</span>
+<span class="n">primer_df</span> <span class="o">=</span> <span class="n">primer_df</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">primer_df</span> <span class="o">=</span> <span class="n">primer_df</span><span class="o">.</span><span class="n">dropna</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">primer_df</span> <span class="o">=</span> <span class="n">primer_df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">primer_df</span><span class="o">.</span><span class="n">columns</span><span class="p">[[</span><span class="mi">9</span><span class="p">]],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">primer_df</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[14]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>HDI rank</th>
+<th>Country</th>
+<th>Human Development Index (HDI)</th>
+<th>Life expectancy at birth</th>
+<th>Expected years of schooling</th>
+<th>Mean years of schooling</th>
+<th>Gross national income (GNI) per capita</th>
+<th>GNI per capita rank minus HDI rank</th>
+<th>HDI rank.1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>1</td>
+<td>Switzerland</td>
+<td>0.962</td>
+<td>83.9872</td>
+<td>16.500299</td>
+<td>13.85966</td>
+<td>66933.00454</td>
+<td>5</td>
+<td>3</td>
+</tr>
+<tr>
+<th>1</th>
+<td>2</td>
+<td>Norway</td>
+<td>0.961</td>
+<td>83.2339</td>
+<td>18.1852</td>
+<td>13.00363</td>
+<td>64660.10622</td>
+<td>6</td>
+<td>1</td>
+</tr>
+<tr>
+<th>2</th>
+<td>3</td>
+<td>Iceland</td>
+<td>0.959</td>
+<td>82.6782</td>
+<td>19.163059</td>
+<td>13.76717</td>
+<td>55782.04981</td>
+<td>11</td>
+<td>2</td>
+</tr>
+<tr>
+<th>3</th>
+<td>4</td>
+<td>Hong Kong, China (SAR)</td>
+<td>0.952</td>
+<td>85.4734</td>
+<td>17.27817</td>
+<td>12.22621</td>
+<td>62606.8454</td>
+<td>6</td>
+<td>4</td>
+</tr>
+<tr>
+<th>4</th>
+<td>5</td>
+<td>Australia</td>
+<td>0.951</td>
+<td>84.5265</td>
+<td>21.05459</td>
+<td>12.72682</td>
+<td>49238.43335</td>
+<td>18</td>
+<td>5</td>
+</tr>
+<tr>
+<th>...</th>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr>
+<th>61</th>
+<td>62</td>
+<td>Malaysia</td>
+<td>0.803</td>
+<td>74.8839</td>
+<td>13.34304</td>
+<td>10.64506</td>
+<td>26657.94355</td>
+<td>-8</td>
+<td>61</td>
+</tr>
+<tr>
+<th>62</th>
+<td>63</td>
+<td>Georgia</td>
+<td>0.802</td>
+<td>71.694</td>
+<td>15.56852</td>
+<td>12.82222</td>
+<td>14664.16825</td>
+<td>17</td>
+<td>64</td>
+</tr>
+<tr>
+<th>63</th>
+<td>63</td>
+<td>Mauritius</td>
+<td>0.802</td>
+<td>73.5552</td>
+<td>15.17353</td>
+<td>10.42791</td>
+<td>22025.34631</td>
+<td>-1</td>
+<td>62</td>
+</tr>
+<tr>
+<th>64</th>
+<td>63</td>
+<td>Serbia</td>
+<td>0.802</td>
+<td>74.1923</td>
+<td>14.40009</td>
+<td>11.36987</td>
+<td>19123.02747</td>
+<td>4</td>
+<td>62</td>
+</tr>
+<tr>
+<th>65</th>
+<td>66</td>
+<td>Thailand</td>
+<td>0.8</td>
+<td>78.7154</td>
+<td>15.882219</td>
+<td>8.69712</td>
+<td>17030.15352</td>
+<td>6</td>
+<td>64</td>
+</tr>
+</tbody>
+</table>
+<p>66 rows × 9 columns</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=9e8b2432-9d2a-4c61-8dde-5f1ca5d50313">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">primer_df</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">to_list</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[15]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>['HDI rank',
+ 'Country',
+ 'Human Development Index (HDI) ',
+ 'Life expectancy at birth',
+ 'Expected years of schooling',
+ 'Mean years of schooling',
+ 'Gross national income (GNI) per capita',
+ 'GNI per capita rank minus HDI rank',
+ 'HDI rank.1']</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=78dee94d-69bf-4435-89ac-37eb00fc8d40">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">list_df</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">=</span><span class="n">primer_df</span>
+<span class="n">list_df</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[16]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>HDI rank</th>
+<th>Country</th>
+<th>Human Development Index (HDI)</th>
+<th>Life expectancy at birth</th>
+<th>Expected years of schooling</th>
+<th>Mean years of schooling</th>
+<th>Gross national income (GNI) per capita</th>
+<th>GNI per capita rank minus HDI rank</th>
+<th>HDI rank.1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>1</td>
+<td>Switzerland</td>
+<td>0.962</td>
+<td>83.9872</td>
+<td>16.500299</td>
+<td>13.85966</td>
+<td>66933.00454</td>
+<td>5</td>
+<td>3</td>
+</tr>
+<tr>
+<th>1</th>
+<td>2</td>
+<td>Norway</td>
+<td>0.961</td>
+<td>83.2339</td>
+<td>18.1852</td>
+<td>13.00363</td>
+<td>64660.10622</td>
+<td>6</td>
+<td>1</td>
+</tr>
+<tr>
+<th>2</th>
+<td>3</td>
+<td>Iceland</td>
+<td>0.959</td>
+<td>82.6782</td>
+<td>19.163059</td>
+<td>13.76717</td>
+<td>55782.04981</td>
+<td>11</td>
+<td>2</td>
+</tr>
+<tr>
+<th>3</th>
+<td>4</td>
+<td>Hong Kong, China (SAR)</td>
+<td>0.952</td>
+<td>85.4734</td>
+<td>17.27817</td>
+<td>12.22621</td>
+<td>62606.8454</td>
+<td>6</td>
+<td>4</td>
+</tr>
+<tr>
+<th>4</th>
+<td>5</td>
+<td>Australia</td>
+<td>0.951</td>
+<td>84.5265</td>
+<td>21.05459</td>
+<td>12.72682</td>
+<td>49238.43335</td>
+<td>18</td>
+<td>5</td>
+</tr>
+<tr>
+<th>...</th>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr>
+<th>61</th>
+<td>62</td>
+<td>Malaysia</td>
+<td>0.803</td>
+<td>74.8839</td>
+<td>13.34304</td>
+<td>10.64506</td>
+<td>26657.94355</td>
+<td>-8</td>
+<td>61</td>
+</tr>
+<tr>
+<th>62</th>
+<td>63</td>
+<td>Georgia</td>
+<td>0.802</td>
+<td>71.694</td>
+<td>15.56852</td>
+<td>12.82222</td>
+<td>14664.16825</td>
+<td>17</td>
+<td>64</td>
+</tr>
+<tr>
+<th>63</th>
+<td>63</td>
+<td>Mauritius</td>
+<td>0.802</td>
+<td>73.5552</td>
+<td>15.17353</td>
+<td>10.42791</td>
+<td>22025.34631</td>
+<td>-1</td>
+<td>62</td>
+</tr>
+<tr>
+<th>64</th>
+<td>63</td>
+<td>Serbia</td>
+<td>0.802</td>
+<td>74.1923</td>
+<td>14.40009</td>
+<td>11.36987</td>
+<td>19123.02747</td>
+<td>4</td>
+<td>62</td>
+</tr>
+<tr>
+<th>65</th>
+<td>66</td>
+<td>Thailand</td>
+<td>0.8</td>
+<td>78.7154</td>
+<td>15.882219</td>
+<td>8.69712</td>
+<td>17030.15352</td>
+<td>6</td>
+<td>64</td>
+</tr>
+</tbody>
+</table>
+<p>66 rows × 9 columns</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=1969bd6b-93b9-45a3-870c-72a34f99d497">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [17]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#Corrigiendo el segundo dataframe</span>
+<span class="n">segundo_df</span> <span class="o">=</span> <span class="n">list_df</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+<span class="n">segundo_df</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[17]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>HDI rank</th>
+<th>Country</th>
+<th>Human Development Index (HDI)</th>
+<th>Life expectancy at birth</th>
+<th>Expected years of schooling</th>
+<th>Mean years of schooling</th>
+<th>Unnamed: 6</th>
+<th>Gross national income (GNI) per capita</th>
+<th>Unnamed: 8</th>
+<th>GNI per capita rank minus HDI rank</th>
+<th>Unnamed: 10</th>
+<th>HDI rank.1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>NaN</td>
+<td>NaN</td>
+<td>2021.000</td>
+<td>2021.0000</td>
+<td>2021.000000</td>
+<td>2021.000000</td>
+<td>a</td>
+<td>2021.000000</td>
+<td>NaN</td>
+<td>2021.0</td>
+<td>b</td>
+<td>2020.0</td>
+</tr>
+<tr>
+<th>1</th>
+<td>NaN</td>
+<td>HIGH HUMAN DEVELOPMENT</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>2</th>
+<td>67.0</td>
+<td>Albania</td>
+<td>0.796</td>
+<td>76.4626</td>
+<td>14.448000</td>
+<td>11.286455</td>
+<td>e</td>
+<td>14131.110390</td>
+<td>NaN</td>
+<td>17.0</td>
+<td>NaN</td>
+<td>68.0</td>
+</tr>
+<tr>
+<th>3</th>
+<td>68.0</td>
+<td>Bulgaria</td>
+<td>0.795</td>
+<td>71.7980</td>
+<td>13.897290</td>
+<td>11.413180</td>
+<td>NaN</td>
+<td>23078.955950</td>
+<td>NaN</td>
+<td>-8.0</td>
+<td>NaN</td>
+<td>64.0</td>
+</tr>
+<tr>
+<th>4</th>
+<td>68.0</td>
+<td>Grenada</td>
+<td>0.795</td>
+<td>74.9362</td>
+<td>18.662020</td>
+<td>9.032104</td>
+<td>l</td>
+<td>13483.577400</td>
+<td>NaN</td>
+<td>18.0</td>
+<td>NaN</td>
+<td>70.0</td>
+</tr>
+<tr>
+<th>5</th>
+<td>70.0</td>
+<td>Barbados</td>
+<td>0.790</td>
+<td>77.5714</td>
+<td>15.713385</td>
+<td>9.852701</td>
+<td>n</td>
+<td>12306.341000</td>
+<td>NaN</td>
+<td>26.0</td>
+<td>NaN</td>
+<td>71.0</td>
+</tr>
+<tr>
+<th>6</th>
+<td>71.0</td>
+<td>Antigua and Barbuda</td>
+<td>0.788</td>
+<td>78.4968</td>
+<td>14.184626</td>
+<td>9.293741</td>
+<td>j</td>
+<td>16792.365950</td>
+<td>NaN</td>
+<td>2.0</td>
+<td>NaN</td>
+<td>71.0</td>
+</tr>
+<tr>
+<th>7</th>
+<td>72.0</td>
+<td>Seychelles</td>
+<td>0.785</td>
+<td>71.2945</td>
+<td>13.941610</td>
+<td>10.283120</td>
+<td>NaN</td>
+<td>25830.617750</td>
+<td>NaN</td>
+<td>-17.0</td>
+<td>NaN</td>
+<td>69.0</td>
+</tr>
+<tr>
+<th>8</th>
+<td>73.0</td>
+<td>Sri Lanka</td>
+<td>0.782</td>
+<td>76.3991</td>
+<td>14.139905</td>
+<td>10.827300</td>
+<td>NaN</td>
+<td>12578.220550</td>
+<td>NaN</td>
+<td>21.0</td>
+<td>NaN</td>
+<td>75.0</td>
+</tr>
+<tr>
+<th>9</th>
+<td>74.0</td>
+<td>Bosnia and Herzegovina</td>
+<td>0.780</td>
+<td>75.3003</td>
+<td>13.800000</td>
+<td>10.536320</td>
+<td>NaN</td>
+<td>15241.914650</td>
+<td>NaN</td>
+<td>4.0</td>
+<td>NaN</td>
+<td>73.0</td>
+</tr>
+<tr>
+<th>10</th>
+<td>75.0</td>
+<td>Saint Kitts and Nevis</td>
+<td>0.777</td>
+<td>71.6822</td>
+<td>15.427692</td>
+<td>8.662745</td>
+<td>l</td>
+<td>23358.332120</td>
+<td>NaN</td>
+<td>-16.0</td>
+<td>NaN</td>
+<td>76.0</td>
+</tr>
+<tr>
+<th>11</th>
+<td>76.0</td>
+<td>Iran (Islamic Republic of)</td>
+<td>0.774</td>
+<td>73.8749</td>
+<td>14.615250</td>
+<td>10.636453</td>
+<td>e</td>
+<td>13000.711700</td>
+<td>NaN</td>
+<td>15.0</td>
+<td>NaN</td>
+<td>77.0</td>
+</tr>
+<tr>
+<th>12</th>
+<td>77.0</td>
+<td>Ukraine</td>
+<td>0.773</td>
+<td>71.6240</td>
+<td>14.956569</td>
+<td>11.131420</td>
+<td>n</td>
+<td>13255.509770</td>
+<td>NaN</td>
+<td>11.0</td>
+<td>NaN</td>
+<td>78.0</td>
+</tr>
+<tr>
+<th>13</th>
+<td>78.0</td>
+<td>North Macedonia</td>
+<td>0.770</td>
+<td>73.8415</td>
+<td>13.624432</td>
+<td>10.228150</td>
+<td>NaN</td>
+<td>15917.752830</td>
+<td>NaN</td>
+<td>-3.0</td>
+<td>NaN</td>
+<td>79.0</td>
+</tr>
+<tr>
+<th>14</th>
+<td>79.0</td>
+<td>China</td>
+<td>0.768</td>
+<td>78.2107</td>
+<td>14.236115</td>
+<td>7.600118</td>
+<td>n</td>
+<td>17504.399690</td>
+<td>NaN</td>
+<td>-8.0</td>
+<td>NaN</td>
+<td>82.0</td>
+</tr>
+<tr>
+<th>15</th>
+<td>80.0</td>
+<td>Dominican Republic</td>
+<td>0.767</td>
+<td>72.6146</td>
+<td>14.466558</td>
+<td>9.306864</td>
+<td>o</td>
+<td>17989.600370</td>
+<td>NaN</td>
+<td>-11.0</td>
+<td>NaN</td>
+<td>82.0</td>
+</tr>
+<tr>
+<th>16</th>
+<td>80.0</td>
+<td>Moldova (Republic of)</td>
+<td>0.767</td>
+<td>68.8459</td>
+<td>14.433000</td>
+<td>11.821590</td>
+<td>NaN</td>
+<td>14875.331890</td>
+<td>NaN</td>
+<td>-1.0</td>
+<td>NaN</td>
+<td>81.0</td>
+</tr>
+<tr>
+<th>17</th>
+<td>80.0</td>
+<td>Palau</td>
+<td>0.767</td>
+<td>66.0204</td>
+<td>15.784320</td>
+<td>12.491430</td>
+<td>p</td>
+<td>13818.678690</td>
+<td>NaN</td>
+<td>5.0</td>
+<td>NaN</td>
+<td>80.0</td>
+</tr>
+<tr>
+<th>18</th>
+<td>83.0</td>
+<td>Cuba</td>
+<td>0.764</td>
+<td>73.6829</td>
+<td>14.443060</td>
+<td>12.497734</td>
+<td>e</td>
+<td>7878.847482</td>
+<td>q</td>
+<td>37.0</td>
+<td>NaN</td>
+<td>73.0</td>
+</tr>
+<tr>
+<th>19</th>
+<td>84.0</td>
+<td>Peru</td>
+<td>0.762</td>
+<td>72.3769</td>
+<td>15.387734</td>
+<td>9.885519</td>
+<td>e</td>
+<td>12245.893660</td>
+<td>NaN</td>
+<td>13.0</td>
+<td>NaN</td>
+<td>85.0</td>
+</tr>
+<tr>
+<th>20</th>
+<td>85.0</td>
+<td>Armenia</td>
+<td>0.759</td>
+<td>72.0431</td>
+<td>13.116760</td>
+<td>11.330300</td>
+<td>NaN</td>
+<td>13157.993900</td>
+<td>NaN</td>
+<td>4.0</td>
+<td>NaN</td>
+<td>87.0</td>
+</tr>
+<tr>
+<th>21</th>
+<td>86.0</td>
+<td>Mexico</td>
+<td>0.758</td>
+<td>70.2127</td>
+<td>14.864440</td>
+<td>9.221050</td>
+<td>NaN</td>
+<td>17896.294980</td>
+<td>NaN</td>
+<td>-16.0</td>
+<td>NaN</td>
+<td>88.0</td>
+</tr>
+<tr>
+<th>22</th>
+<td>87.0</td>
+<td>Brazil</td>
+<td>0.754</td>
+<td>72.7504</td>
+<td>15.599060</td>
+<td>8.128814</td>
+<td>e</td>
+<td>14369.888480</td>
+<td>NaN</td>
+<td>-5.0</td>
+<td>NaN</td>
+<td>86.0</td>
+</tr>
+<tr>
+<th>23</th>
+<td>88.0</td>
+<td>Colombia</td>
+<td>0.752</td>
+<td>72.8296</td>
+<td>14.442750</td>
+<td>8.862860</td>
+<td>NaN</td>
+<td>14384.356660</td>
+<td>NaN</td>
+<td>-7.0</td>
+<td>NaN</td>
+<td>88.0</td>
+</tr>
+<tr>
+<th>24</th>
+<td>89.0</td>
+<td>Saint Vincent and the Grenadines</td>
+<td>0.751</td>
+<td>69.6291</td>
+<td>14.672206</td>
+<td>10.833430</td>
+<td>NaN</td>
+<td>11961.087920</td>
+<td>NaN</td>
+<td>11.0</td>
+<td>NaN</td>
+<td>82.0</td>
+</tr>
+<tr>
+<th>25</th>
+<td>90.0</td>
+<td>Maldives</td>
+<td>0.747</td>
+<td>79.9182</td>
+<td>12.635610</td>
+<td>7.322000</td>
+<td>NaN</td>
+<td>15448.127880</td>
+<td>NaN</td>
+<td>-14.0</td>
+<td>NaN</td>
+<td>97.0</td>
+</tr>
+<tr>
+<th>26</th>
+<td>91.0</td>
+<td>Algeria</td>
+<td>0.745</td>
+<td>76.3767</td>
+<td>14.626896</td>
+<td>8.069284</td>
+<td>e</td>
+<td>10800.225460</td>
+<td>NaN</td>
+<td>13.0</td>
+<td>NaN</td>
+<td>96.0</td>
+</tr>
+<tr>
+<th>27</th>
+<td>91.0</td>
+<td>Azerbaijan</td>
+<td>0.745</td>
+<td>69.3658</td>
+<td>13.496890</td>
+<td>10.542970</td>
+<td>NaN</td>
+<td>14256.744560</td>
+<td>NaN</td>
+<td>-8.0</td>
+<td>NaN</td>
+<td>100.0</td>
+</tr>
+<tr>
+<th>28</th>
+<td>91.0</td>
+<td>Tonga</td>
+<td>0.745</td>
+<td>70.9857</td>
+<td>16.048571</td>
+<td>11.392594</td>
+<td>n</td>
+<td>6822.031250</td>
+<td>NaN</td>
+<td>34.0</td>
+<td>NaN</td>
+<td>90.0</td>
+</tr>
+<tr>
+<th>29</th>
+<td>91.0</td>
+<td>Turkmenistan</td>
+<td>0.745</td>
+<td>69.2644</td>
+<td>13.210400</td>
+<td>11.261390</td>
+<td>NaN</td>
+<td>13020.715500</td>
+<td>NaN</td>
+<td>-1.0</td>
+<td>NaN</td>
+<td>93.0</td>
+</tr>
+<tr>
+<th>30</th>
+<td>95.0</td>
+<td>Ecuador</td>
+<td>0.740</td>
+<td>73.6700</td>
+<td>14.624230</td>
+<td>8.817120</td>
+<td>NaN</td>
+<td>10311.632730</td>
+<td>NaN</td>
+<td>11.0</td>
+<td>NaN</td>
+<td>99.0</td>
+</tr>
+<tr>
+<th>31</th>
+<td>96.0</td>
+<td>Mongolia</td>
+<td>0.739</td>
+<td>70.9754</td>
+<td>14.980350</td>
+<td>9.423700</td>
+<td>NaN</td>
+<td>10588.225320</td>
+<td>NaN</td>
+<td>9.0</td>
+<td>NaN</td>
+<td>90.0</td>
+</tr>
+<tr>
+<th>32</th>
+<td>97.0</td>
+<td>Egypt</td>
+<td>0.731</td>
+<td>70.2207</td>
+<td>13.786500</td>
+<td>9.573026</td>
+<td>e</td>
+<td>11731.690560</td>
+<td>NaN</td>
+<td>4.0</td>
+<td>NaN</td>
+<td>97.0</td>
+</tr>
+<tr>
+<th>33</th>
+<td>97.0</td>
+<td>Tunisia</td>
+<td>0.731</td>
+<td>73.7719</td>
+<td>15.425382</td>
+<td>7.431599</td>
+<td>e</td>
+<td>10257.544770</td>
+<td>NaN</td>
+<td>10.0</td>
+<td>NaN</td>
+<td>94.0</td>
+</tr>
+<tr>
+<th>34</th>
+<td>99.0</td>
+<td>Fiji</td>
+<td>0.730</td>
+<td>67.1140</td>
+<td>14.736790</td>
+<td>10.921548</td>
+<td>e</td>
+<td>9980.110866</td>
+<td>NaN</td>
+<td>9.0</td>
+<td>NaN</td>
+<td>94.0</td>
+</tr>
+<tr>
+<th>35</th>
+<td>99.0</td>
+<td>Suriname</td>
+<td>0.730</td>
+<td>70.2743</td>
+<td>13.035644</td>
+<td>9.776801</td>
+<td>m</td>
+<td>12672.200330</td>
+<td>NaN</td>
+<td>-6.0</td>
+<td>NaN</td>
+<td>92.0</td>
+</tr>
+<tr>
+<th>36</th>
+<td>101.0</td>
+<td>Uzbekistan</td>
+<td>0.727</td>
+<td>70.8616</td>
+<td>12.477140</td>
+<td>11.895590</td>
+<td>NaN</td>
+<td>7916.785725</td>
+<td>NaN</td>
+<td>18.0</td>
+<td>NaN</td>
+<td>107.0</td>
+</tr>
+<tr>
+<th>37</th>
+<td>102.0</td>
+<td>Dominica</td>
+<td>0.720</td>
+<td>72.8140</td>
+<td>13.319186</td>
+<td>8.142186</td>
+<td>j</td>
+<td>11487.624220</td>
+<td>NaN</td>
+<td>0.0</td>
+<td>NaN</td>
+<td>106.0</td>
+</tr>
+<tr>
+<th>38</th>
+<td>102.0</td>
+<td>Jordan</td>
+<td>0.720</td>
+<td>74.2563</td>
+<td>10.646560</td>
+<td>10.446680</td>
+<td>NaN</td>
+<td>9923.714974</td>
+<td>NaN</td>
+<td>8.0</td>
+<td>NaN</td>
+<td>104.0</td>
+</tr>
+<tr>
+<th>39</th>
+<td>104.0</td>
+<td>Libya</td>
+<td>0.718</td>
+<td>71.9112</td>
+<td>12.854280</td>
+<td>7.599985</td>
+<td>r</td>
+<td>15335.712000</td>
+<td>NaN</td>
+<td>-27.0</td>
+<td>NaN</td>
+<td>117.0</td>
+</tr>
+<tr>
+<th>40</th>
+<td>105.0</td>
+<td>Paraguay</td>
+<td>0.717</td>
+<td>70.2617</td>
+<td>12.987991</td>
+<td>8.861840</td>
+<td>NaN</td>
+<td>12349.286000</td>
+<td>NaN</td>
+<td>-10.0</td>
+<td>NaN</td>
+<td>100.0</td>
+</tr>
+<tr>
+<th>41</th>
+<td>106.0</td>
+<td>Palestine, State of</td>
+<td>0.715</td>
+<td>73.4727</td>
+<td>13.358010</td>
+<td>9.938480</td>
+<td>NaN</td>
+<td>6582.899416</td>
+<td>NaN</td>
+<td>21.0</td>
+<td>NaN</td>
+<td>109.0</td>
+</tr>
+<tr>
+<th>42</th>
+<td>106.0</td>
+<td>Saint Lucia</td>
+<td>0.715</td>
+<td>71.1114</td>
+<td>12.866110</td>
+<td>8.545040</td>
+<td>NaN</td>
+<td>12048.303810</td>
+<td>NaN</td>
+<td>-7.0</td>
+<td>NaN</td>
+<td>104.0</td>
+</tr>
+<tr>
+<th>43</th>
+<td>108.0</td>
+<td>Guyana</td>
+<td>0.714</td>
+<td>65.6734</td>
+<td>12.502722</td>
+<td>8.617477</td>
+<td>NaN</td>
+<td>22464.657340</td>
+<td>NaN</td>
+<td>-47.0</td>
+<td>NaN</td>
+<td>107.0</td>
+</tr>
+<tr>
+<th>44</th>
+<td>109.0</td>
+<td>South Africa</td>
+<td>0.713</td>
+<td>62.3410</td>
+<td>13.643710</td>
+<td>11.373160</td>
+<td>NaN</td>
+<td>12948.373250</td>
+<td>NaN</td>
+<td>-17.0</td>
+<td>NaN</td>
+<td>102.0</td>
+</tr>
+<tr>
+<th>45</th>
+<td>110.0</td>
+<td>Jamaica</td>
+<td>0.709</td>
+<td>70.5003</td>
+<td>13.404920</td>
+<td>9.154629</td>
+<td>e</td>
+<td>8834.475670</td>
+<td>NaN</td>
+<td>4.0</td>
+<td>NaN</td>
+<td>110.0</td>
+</tr>
+<tr>
+<th>46</th>
+<td>111.0</td>
+<td>Samoa</td>
+<td>0.707</td>
+<td>72.7675</td>
+<td>12.418859</td>
+<td>11.403800</td>
+<td>NaN</td>
+<td>5307.953374</td>
+<td>NaN</td>
+<td>24.0</td>
+<td>NaN</td>
+<td>112.0</td>
+</tr>
+<tr>
+<th>47</th>
+<td>112.0</td>
+<td>Gabon</td>
+<td>0.706</td>
+<td>65.8210</td>
+<td>12.977310</td>
+<td>9.436000</td>
+<td>NaN</td>
+<td>13366.934550</td>
+<td>NaN</td>
+<td>-25.0</td>
+<td>NaN</td>
+<td>113.0</td>
+</tr>
+<tr>
+<th>48</th>
+<td>112.0</td>
+<td>Lebanon</td>
+<td>0.706</td>
+<td>75.0472</td>
+<td>11.285870</td>
+<td>8.718636</td>
+<td>l</td>
+<td>9525.831467</td>
+<td>NaN</td>
+<td>-1.0</td>
+<td>NaN</td>
+<td>103.0</td>
+</tr>
+<tr>
+<th>49</th>
+<td>114.0</td>
+<td>Indonesia</td>
+<td>0.705</td>
+<td>67.5703</td>
+<td>13.748894</td>
+<td>8.556510</td>
+<td>NaN</td>
+<td>11466.068360</td>
+<td>NaN</td>
+<td>-11.0</td>
+<td>NaN</td>
+<td>116.0</td>
+</tr>
+<tr>
+<th>50</th>
+<td>115.0</td>
+<td>Viet Nam</td>
+<td>0.703</td>
+<td>73.6181</td>
+<td>12.951932</td>
+<td>8.370280</td>
+<td>NaN</td>
+<td>7867.371345</td>
+<td>NaN</td>
+<td>6.0</td>
+<td>NaN</td>
+<td>113.0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=72388e00-3154-4f23-a333-ed24230ca820">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">segundo_df</span> <span class="o">=</span> <span class="n">segundo_df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">2</span><span class="p">:]</span>
+<span class="n">segundo_df</span> <span class="o">=</span> <span class="n">segundo_df</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">segundo_df</span> <span class="o">=</span> <span class="n">segundo_df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">segundo_df</span><span class="o">.</span><span class="n">columns</span><span class="p">[[</span><span class="mi">6</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="mi">10</span><span class="p">]],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">segundo_df</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[18]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>HDI rank</th>
+<th>Country</th>
+<th>Human Development Index (HDI)</th>
+<th>Life expectancy at birth</th>
+<th>Expected years of schooling</th>
+<th>Mean years of schooling</th>
+<th>Gross national income (GNI) per capita</th>
+<th>GNI per capita rank minus HDI rank</th>
+<th>HDI rank.1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>67.0</td>
+<td>Albania</td>
+<td>0.796</td>
+<td>76.4626</td>
+<td>14.448000</td>
+<td>11.286455</td>
+<td>14131.110390</td>
+<td>17.0</td>
+<td>68.0</td>
+</tr>
+<tr>
+<th>1</th>
+<td>68.0</td>
+<td>Bulgaria</td>
+<td>0.795</td>
+<td>71.7980</td>
+<td>13.897290</td>
+<td>11.413180</td>
+<td>23078.955950</td>
+<td>-8.0</td>
+<td>64.0</td>
+</tr>
+<tr>
+<th>2</th>
+<td>68.0</td>
+<td>Grenada</td>
+<td>0.795</td>
+<td>74.9362</td>
+<td>18.662020</td>
+<td>9.032104</td>
+<td>13483.577400</td>
+<td>18.0</td>
+<td>70.0</td>
+</tr>
+<tr>
+<th>3</th>
+<td>70.0</td>
+<td>Barbados</td>
+<td>0.790</td>
+<td>77.5714</td>
+<td>15.713385</td>
+<td>9.852701</td>
+<td>12306.341000</td>
+<td>26.0</td>
+<td>71.0</td>
+</tr>
+<tr>
+<th>4</th>
+<td>71.0</td>
+<td>Antigua and Barbuda</td>
+<td>0.788</td>
+<td>78.4968</td>
+<td>14.184626</td>
+<td>9.293741</td>
+<td>16792.365950</td>
+<td>2.0</td>
+<td>71.0</td>
+</tr>
+<tr>
+<th>5</th>
+<td>72.0</td>
+<td>Seychelles</td>
+<td>0.785</td>
+<td>71.2945</td>
+<td>13.941610</td>
+<td>10.283120</td>
+<td>25830.617750</td>
+<td>-17.0</td>
+<td>69.0</td>
+</tr>
+<tr>
+<th>6</th>
+<td>73.0</td>
+<td>Sri Lanka</td>
+<td>0.782</td>
+<td>76.3991</td>
+<td>14.139905</td>
+<td>10.827300</td>
+<td>12578.220550</td>
+<td>21.0</td>
+<td>75.0</td>
+</tr>
+<tr>
+<th>7</th>
+<td>74.0</td>
+<td>Bosnia and Herzegovina</td>
+<td>0.780</td>
+<td>75.3003</td>
+<td>13.800000</td>
+<td>10.536320</td>
+<td>15241.914650</td>
+<td>4.0</td>
+<td>73.0</td>
+</tr>
+<tr>
+<th>8</th>
+<td>75.0</td>
+<td>Saint Kitts and Nevis</td>
+<td>0.777</td>
+<td>71.6822</td>
+<td>15.427692</td>
+<td>8.662745</td>
+<td>23358.332120</td>
+<td>-16.0</td>
+<td>76.0</td>
+</tr>
+<tr>
+<th>9</th>
+<td>76.0</td>
+<td>Iran (Islamic Republic of)</td>
+<td>0.774</td>
+<td>73.8749</td>
+<td>14.615250</td>
+<td>10.636453</td>
+<td>13000.711700</td>
+<td>15.0</td>
+<td>77.0</td>
+</tr>
+<tr>
+<th>10</th>
+<td>77.0</td>
+<td>Ukraine</td>
+<td>0.773</td>
+<td>71.6240</td>
+<td>14.956569</td>
+<td>11.131420</td>
+<td>13255.509770</td>
+<td>11.0</td>
+<td>78.0</td>
+</tr>
+<tr>
+<th>11</th>
+<td>78.0</td>
+<td>North Macedonia</td>
+<td>0.770</td>
+<td>73.8415</td>
+<td>13.624432</td>
+<td>10.228150</td>
+<td>15917.752830</td>
+<td>-3.0</td>
+<td>79.0</td>
+</tr>
+<tr>
+<th>12</th>
+<td>79.0</td>
+<td>China</td>
+<td>0.768</td>
+<td>78.2107</td>
+<td>14.236115</td>
+<td>7.600118</td>
+<td>17504.399690</td>
+<td>-8.0</td>
+<td>82.0</td>
+</tr>
+<tr>
+<th>13</th>
+<td>80.0</td>
+<td>Dominican Republic</td>
+<td>0.767</td>
+<td>72.6146</td>
+<td>14.466558</td>
+<td>9.306864</td>
+<td>17989.600370</td>
+<td>-11.0</td>
+<td>82.0</td>
+</tr>
+<tr>
+<th>14</th>
+<td>80.0</td>
+<td>Moldova (Republic of)</td>
+<td>0.767</td>
+<td>68.8459</td>
+<td>14.433000</td>
+<td>11.821590</td>
+<td>14875.331890</td>
+<td>-1.0</td>
+<td>81.0</td>
+</tr>
+<tr>
+<th>15</th>
+<td>80.0</td>
+<td>Palau</td>
+<td>0.767</td>
+<td>66.0204</td>
+<td>15.784320</td>
+<td>12.491430</td>
+<td>13818.678690</td>
+<td>5.0</td>
+<td>80.0</td>
+</tr>
+<tr>
+<th>16</th>
+<td>83.0</td>
+<td>Cuba</td>
+<td>0.764</td>
+<td>73.6829</td>
+<td>14.443060</td>
+<td>12.497734</td>
+<td>7878.847482</td>
+<td>37.0</td>
+<td>73.0</td>
+</tr>
+<tr>
+<th>17</th>
+<td>84.0</td>
+<td>Peru</td>
+<td>0.762</td>
+<td>72.3769</td>
+<td>15.387734</td>
+<td>9.885519</td>
+<td>12245.893660</td>
+<td>13.0</td>
+<td>85.0</td>
+</tr>
+<tr>
+<th>18</th>
+<td>85.0</td>
+<td>Armenia</td>
+<td>0.759</td>
+<td>72.0431</td>
+<td>13.116760</td>
+<td>11.330300</td>
+<td>13157.993900</td>
+<td>4.0</td>
+<td>87.0</td>
+</tr>
+<tr>
+<th>19</th>
+<td>86.0</td>
+<td>Mexico</td>
+<td>0.758</td>
+<td>70.2127</td>
+<td>14.864440</td>
+<td>9.221050</td>
+<td>17896.294980</td>
+<td>-16.0</td>
+<td>88.0</td>
+</tr>
+<tr>
+<th>20</th>
+<td>87.0</td>
+<td>Brazil</td>
+<td>0.754</td>
+<td>72.7504</td>
+<td>15.599060</td>
+<td>8.128814</td>
+<td>14369.888480</td>
+<td>-5.0</td>
+<td>86.0</td>
+</tr>
+<tr>
+<th>21</th>
+<td>88.0</td>
+<td>Colombia</td>
+<td>0.752</td>
+<td>72.8296</td>
+<td>14.442750</td>
+<td>8.862860</td>
+<td>14384.356660</td>
+<td>-7.0</td>
+<td>88.0</td>
+</tr>
+<tr>
+<th>22</th>
+<td>89.0</td>
+<td>Saint Vincent and the Grenadines</td>
+<td>0.751</td>
+<td>69.6291</td>
+<td>14.672206</td>
+<td>10.833430</td>
+<td>11961.087920</td>
+<td>11.0</td>
+<td>82.0</td>
+</tr>
+<tr>
+<th>23</th>
+<td>90.0</td>
+<td>Maldives</td>
+<td>0.747</td>
+<td>79.9182</td>
+<td>12.635610</td>
+<td>7.322000</td>
+<td>15448.127880</td>
+<td>-14.0</td>
+<td>97.0</td>
+</tr>
+<tr>
+<th>24</th>
+<td>91.0</td>
+<td>Algeria</td>
+<td>0.745</td>
+<td>76.3767</td>
+<td>14.626896</td>
+<td>8.069284</td>
+<td>10800.225460</td>
+<td>13.0</td>
+<td>96.0</td>
+</tr>
+<tr>
+<th>25</th>
+<td>91.0</td>
+<td>Azerbaijan</td>
+<td>0.745</td>
+<td>69.3658</td>
+<td>13.496890</td>
+<td>10.542970</td>
+<td>14256.744560</td>
+<td>-8.0</td>
+<td>100.0</td>
+</tr>
+<tr>
+<th>26</th>
+<td>91.0</td>
+<td>Tonga</td>
+<td>0.745</td>
+<td>70.9857</td>
+<td>16.048571</td>
+<td>11.392594</td>
+<td>6822.031250</td>
+<td>34.0</td>
+<td>90.0</td>
+</tr>
+<tr>
+<th>27</th>
+<td>91.0</td>
+<td>Turkmenistan</td>
+<td>0.745</td>
+<td>69.2644</td>
+<td>13.210400</td>
+<td>11.261390</td>
+<td>13020.715500</td>
+<td>-1.0</td>
+<td>93.0</td>
+</tr>
+<tr>
+<th>28</th>
+<td>95.0</td>
+<td>Ecuador</td>
+<td>0.740</td>
+<td>73.6700</td>
+<td>14.624230</td>
+<td>8.817120</td>
+<td>10311.632730</td>
+<td>11.0</td>
+<td>99.0</td>
+</tr>
+<tr>
+<th>29</th>
+<td>96.0</td>
+<td>Mongolia</td>
+<td>0.739</td>
+<td>70.9754</td>
+<td>14.980350</td>
+<td>9.423700</td>
+<td>10588.225320</td>
+<td>9.0</td>
+<td>90.0</td>
+</tr>
+<tr>
+<th>30</th>
+<td>97.0</td>
+<td>Egypt</td>
+<td>0.731</td>
+<td>70.2207</td>
+<td>13.786500</td>
+<td>9.573026</td>
+<td>11731.690560</td>
+<td>4.0</td>
+<td>97.0</td>
+</tr>
+<tr>
+<th>31</th>
+<td>97.0</td>
+<td>Tunisia</td>
+<td>0.731</td>
+<td>73.7719</td>
+<td>15.425382</td>
+<td>7.431599</td>
+<td>10257.544770</td>
+<td>10.0</td>
+<td>94.0</td>
+</tr>
+<tr>
+<th>32</th>
+<td>99.0</td>
+<td>Fiji</td>
+<td>0.730</td>
+<td>67.1140</td>
+<td>14.736790</td>
+<td>10.921548</td>
+<td>9980.110866</td>
+<td>9.0</td>
+<td>94.0</td>
+</tr>
+<tr>
+<th>33</th>
+<td>99.0</td>
+<td>Suriname</td>
+<td>0.730</td>
+<td>70.2743</td>
+<td>13.035644</td>
+<td>9.776801</td>
+<td>12672.200330</td>
+<td>-6.0</td>
+<td>92.0</td>
+</tr>
+<tr>
+<th>34</th>
+<td>101.0</td>
+<td>Uzbekistan</td>
+<td>0.727</td>
+<td>70.8616</td>
+<td>12.477140</td>
+<td>11.895590</td>
+<td>7916.785725</td>
+<td>18.0</td>
+<td>107.0</td>
+</tr>
+<tr>
+<th>35</th>
+<td>102.0</td>
+<td>Dominica</td>
+<td>0.720</td>
+<td>72.8140</td>
+<td>13.319186</td>
+<td>8.142186</td>
+<td>11487.624220</td>
+<td>0.0</td>
+<td>106.0</td>
+</tr>
+<tr>
+<th>36</th>
+<td>102.0</td>
+<td>Jordan</td>
+<td>0.720</td>
+<td>74.2563</td>
+<td>10.646560</td>
+<td>10.446680</td>
+<td>9923.714974</td>
+<td>8.0</td>
+<td>104.0</td>
+</tr>
+<tr>
+<th>37</th>
+<td>104.0</td>
+<td>Libya</td>
+<td>0.718</td>
+<td>71.9112</td>
+<td>12.854280</td>
+<td>7.599985</td>
+<td>15335.712000</td>
+<td>-27.0</td>
+<td>117.0</td>
+</tr>
+<tr>
+<th>38</th>
+<td>105.0</td>
+<td>Paraguay</td>
+<td>0.717</td>
+<td>70.2617</td>
+<td>12.987991</td>
+<td>8.861840</td>
+<td>12349.286000</td>
+<td>-10.0</td>
+<td>100.0</td>
+</tr>
+<tr>
+<th>39</th>
+<td>106.0</td>
+<td>Palestine, State of</td>
+<td>0.715</td>
+<td>73.4727</td>
+<td>13.358010</td>
+<td>9.938480</td>
+<td>6582.899416</td>
+<td>21.0</td>
+<td>109.0</td>
+</tr>
+<tr>
+<th>40</th>
+<td>106.0</td>
+<td>Saint Lucia</td>
+<td>0.715</td>
+<td>71.1114</td>
+<td>12.866110</td>
+<td>8.545040</td>
+<td>12048.303810</td>
+<td>-7.0</td>
+<td>104.0</td>
+</tr>
+<tr>
+<th>41</th>
+<td>108.0</td>
+<td>Guyana</td>
+<td>0.714</td>
+<td>65.6734</td>
+<td>12.502722</td>
+<td>8.617477</td>
+<td>22464.657340</td>
+<td>-47.0</td>
+<td>107.0</td>
+</tr>
+<tr>
+<th>42</th>
+<td>109.0</td>
+<td>South Africa</td>
+<td>0.713</td>
+<td>62.3410</td>
+<td>13.643710</td>
+<td>11.373160</td>
+<td>12948.373250</td>
+<td>-17.0</td>
+<td>102.0</td>
+</tr>
+<tr>
+<th>43</th>
+<td>110.0</td>
+<td>Jamaica</td>
+<td>0.709</td>
+<td>70.5003</td>
+<td>13.404920</td>
+<td>9.154629</td>
+<td>8834.475670</td>
+<td>4.0</td>
+<td>110.0</td>
+</tr>
+<tr>
+<th>44</th>
+<td>111.0</td>
+<td>Samoa</td>
+<td>0.707</td>
+<td>72.7675</td>
+<td>12.418859</td>
+<td>11.403800</td>
+<td>5307.953374</td>
+<td>24.0</td>
+<td>112.0</td>
+</tr>
+<tr>
+<th>45</th>
+<td>112.0</td>
+<td>Gabon</td>
+<td>0.706</td>
+<td>65.8210</td>
+<td>12.977310</td>
+<td>9.436000</td>
+<td>13366.934550</td>
+<td>-25.0</td>
+<td>113.0</td>
+</tr>
+<tr>
+<th>46</th>
+<td>112.0</td>
+<td>Lebanon</td>
+<td>0.706</td>
+<td>75.0472</td>
+<td>11.285870</td>
+<td>8.718636</td>
+<td>9525.831467</td>
+<td>-1.0</td>
+<td>103.0</td>
+</tr>
+<tr>
+<th>47</th>
+<td>114.0</td>
+<td>Indonesia</td>
+<td>0.705</td>
+<td>67.5703</td>
+<td>13.748894</td>
+<td>8.556510</td>
+<td>11466.068360</td>
+<td>-11.0</td>
+<td>116.0</td>
+</tr>
+<tr>
+<th>48</th>
+<td>115.0</td>
+<td>Viet Nam</td>
+<td>0.703</td>
+<td>73.6181</td>
+<td>12.951932</td>
+<td>8.370280</td>
+<td>7867.371345</td>
+<td>6.0</td>
+<td>113.0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=18b016ef-570a-4f5c-83eb-2fb9d6a550fc">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [19]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">list_df</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">segundo_df</span>
+<span class="n">list_df</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
@@ -7582,100 +10253,2530 @@ a.anchor-link {
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">ModuleNotFoundError</span>                       Traceback (most recent call last)
-File <span class="ansi-green-intense-fg ansi-bold">D:\Anaconda\envs\my_environment\Lib\site-packages\pandas\compat\_optional.py:135</span>, in <span class="ansi-cyan-fg">import_optional_dependency</span><span class="ansi-blue-intense-fg ansi-bold">(name, extra, errors, min_version)</span>
-<span class="ansi-green-fg">    134</span> <span class="ansi-bold" style="color: rgb(0,135,0)">try</span>:
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 135</span>     module <span style="color: rgb(98,98,98)">=</span> importlib<span style="color: rgb(98,98,98)">.</span>import_module(name)
-<span class="ansi-green-fg">    136</span> <span class="ansi-bold" style="color: rgb(0,135,0)">except</span> <span class="ansi-bold" style="color: rgb(215,95,95)">ImportError</span>:
-
-File <span class="ansi-green-intense-fg ansi-bold">D:\Anaconda\envs\my_environment\Lib\importlib\__init__.py:126</span>, in <span class="ansi-cyan-fg">import_module</span><span class="ansi-blue-intense-fg ansi-bold">(name, package)</span>
-<span class="ansi-green-fg">    125</span>         level <span style="color: rgb(98,98,98)">+</span><span style="color: rgb(98,98,98)">=</span> <span style="color: rgb(98,98,98)">1</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 126</span> <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> _bootstrap<span style="color: rgb(98,98,98)">.</span>_gcd_import(name[level:], package, level)
-
-File <span class="ansi-green-intense-fg ansi-bold">&lt;frozen importlib._bootstrap&gt;:1204</span>, in <span class="ansi-cyan-fg">_gcd_import</span><span class="ansi-blue-intense-fg ansi-bold">(name, package, level)</span>
-
-File <span class="ansi-green-intense-fg ansi-bold">&lt;frozen importlib._bootstrap&gt;:1176</span>, in <span class="ansi-cyan-fg">_find_and_load</span><span class="ansi-blue-intense-fg ansi-bold">(name, import_)</span>
-
-File <span class="ansi-green-intense-fg ansi-bold">&lt;frozen importlib._bootstrap&gt;:1140</span>, in <span class="ansi-cyan-fg">_find_and_load_unlocked</span><span class="ansi-blue-intense-fg ansi-bold">(name, import_)</span>
-
-<span class="ansi-red-intense-fg ansi-bold">ModuleNotFoundError</span>: No module named 'openpyxl'
-
-During handling of the above exception, another exception occurred:
-
-<span class="ansi-red-intense-fg ansi-bold">ImportError</span>                               Traceback (most recent call last)
-Cell <span class="ansi-green-intense-fg ansi-bold">In[9], line 2</span>
-<span class="ansi-green-fg">      1</span> <span class="ansi-bold" style="color: rgb(0,135,0)">import</span> <span class="ansi-bold" style="color: rgb(0,0,255)">pandas</span> <span class="ansi-bold" style="color: rgb(0,135,0)">as</span> <span class="ansi-bold" style="color: rgb(0,0,255)">pd</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 2</span> list_df <span style="color: rgb(98,98,98)">=</span> [pd<span style="color: rgb(98,98,98)">.</span>read_excel(link) <span class="ansi-bold" style="color: rgb(0,135,0)">for</span> link <span class="ansi-bold" style="color: rgb(175,0,255)">in</span> links]
-
-Cell <span class="ansi-green-intense-fg ansi-bold">In[9], line 2</span>, in <span class="ansi-cyan-fg">&lt;listcomp&gt;</span><span class="ansi-blue-intense-fg ansi-bold">(.0)</span>
-<span class="ansi-green-fg">      1</span> <span class="ansi-bold" style="color: rgb(0,135,0)">import</span> <span class="ansi-bold" style="color: rgb(0,0,255)">pandas</span> <span class="ansi-bold" style="color: rgb(0,135,0)">as</span> <span class="ansi-bold" style="color: rgb(0,0,255)">pd</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 2</span> list_df <span style="color: rgb(98,98,98)">=</span> [pd<span style="color: rgb(98,98,98)">.</span>read_excel(link) <span class="ansi-bold" style="color: rgb(0,135,0)">for</span> link <span class="ansi-bold" style="color: rgb(175,0,255)">in</span> links]
-
-File <span class="ansi-green-intense-fg ansi-bold">D:\Anaconda\envs\my_environment\Lib\site-packages\pandas\io\excel\_base.py:495</span>, in <span class="ansi-cyan-fg">read_excel</span><span class="ansi-blue-intense-fg ansi-bold">(io, sheet_name, header, names, index_col, usecols, dtype, engine, converters, true_values, false_values, skiprows, nrows, na_values, keep_default_na, na_filter, verbose, parse_dates, date_parser, date_format, thousands, decimal, comment, skipfooter, storage_options, dtype_backend, engine_kwargs)</span>
-<span class="ansi-green-fg">    493</span> <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> <span class="ansi-bold" style="color: rgb(175,0,255)">not</span> <span style="color: rgb(0,135,0)">isinstance</span>(io, ExcelFile):
-<span class="ansi-green-fg">    494</span>     should_close <span style="color: rgb(98,98,98)">=</span> <span class="ansi-bold" style="color: rgb(0,135,0)">True</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 495</span>     io <span style="color: rgb(98,98,98)">=</span> ExcelFile(
-<span class="ansi-green-fg">    496</span>         io,
-<span class="ansi-green-fg">    497</span>         storage_options<span style="color: rgb(98,98,98)">=</span>storage_options,
-<span class="ansi-green-fg">    498</span>         engine<span style="color: rgb(98,98,98)">=</span>engine,
-<span class="ansi-green-fg">    499</span>         engine_kwargs<span style="color: rgb(98,98,98)">=</span>engine_kwargs,
-<span class="ansi-green-fg">    500</span>     )
-<span class="ansi-green-fg">    501</span> <span class="ansi-bold" style="color: rgb(0,135,0)">elif</span> engine <span class="ansi-bold" style="color: rgb(175,0,255)">and</span> engine <span style="color: rgb(98,98,98)">!=</span> io<span style="color: rgb(98,98,98)">.</span>engine:
-<span class="ansi-green-fg">    502</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">raise</span> <span class="ansi-bold" style="color: rgb(215,95,95)">ValueError</span>(
-<span class="ansi-green-fg">    503</span>         <span style="color: rgb(175,0,0)">"</span><span style="color: rgb(175,0,0)">Engine should not be specified when passing </span><span style="color: rgb(175,0,0)">"</span>
-<span class="ansi-green-fg">    504</span>         <span style="color: rgb(175,0,0)">"</span><span style="color: rgb(175,0,0)">an ExcelFile - ExcelFile already has the engine set</span><span style="color: rgb(175,0,0)">"</span>
-<span class="ansi-green-fg">    505</span>     )
-
-File <span class="ansi-green-intense-fg ansi-bold">D:\Anaconda\envs\my_environment\Lib\site-packages\pandas\io\excel\_base.py:1567</span>, in <span class="ansi-cyan-fg">ExcelFile.__init__</span><span class="ansi-blue-intense-fg ansi-bold">(self, path_or_buffer, engine, storage_options, engine_kwargs)</span>
-<span class="ansi-green-fg">   1564</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>engine <span style="color: rgb(98,98,98)">=</span> engine
-<span class="ansi-green-fg">   1565</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>storage_options <span style="color: rgb(98,98,98)">=</span> storage_options
-<span class="ansi-green-intense-fg ansi-bold">-&gt; 1567</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_reader <span style="color: rgb(98,98,98)">=</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_engines[engine](
-<span class="ansi-green-fg">   1568</span>     <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_io,
-<span class="ansi-green-fg">   1569</span>     storage_options<span style="color: rgb(98,98,98)">=</span>storage_options,
-<span class="ansi-green-fg">   1570</span>     engine_kwargs<span style="color: rgb(98,98,98)">=</span>engine_kwargs,
-<span class="ansi-green-fg">   1571</span> )
-
-File <span class="ansi-green-intense-fg ansi-bold">D:\Anaconda\envs\my_environment\Lib\site-packages\pandas\io\excel\_openpyxl.py:552</span>, in <span class="ansi-cyan-fg">OpenpyxlReader.__init__</span><span class="ansi-blue-intense-fg ansi-bold">(self, filepath_or_buffer, storage_options, engine_kwargs)</span>
-<span class="ansi-green-fg">    534</span> <span style="color: rgb(175,0,255)">@doc</span>(storage_options<span style="color: rgb(98,98,98)">=</span>_shared_docs[<span style="color: rgb(175,0,0)">"</span><span style="color: rgb(175,0,0)">storage_options</span><span style="color: rgb(175,0,0)">"</span>])
-<span class="ansi-green-fg">    535</span> <span class="ansi-bold" style="color: rgb(0,135,0)">def</span> <span style="color: rgb(0,0,255)">__init__</span>(
-<span class="ansi-green-fg">    536</span>     <span style="color: rgb(0,135,0)">self</span>,
-<span class="ansi-green-intense-fg ansi-bold">   (...)</span>
-<span class="ansi-green-fg">    539</span>     engine_kwargs: <span style="color: rgb(0,135,0)">dict</span> <span style="color: rgb(98,98,98)">|</span> <span class="ansi-bold" style="color: rgb(0,135,0)">None</span> <span style="color: rgb(98,98,98)">=</span> <span class="ansi-bold" style="color: rgb(0,135,0)">None</span>,
-<span class="ansi-green-fg">    540</span> ) <span style="color: rgb(98,98,98)">-</span><span style="color: rgb(98,98,98)">&gt;</span> <span class="ansi-bold" style="color: rgb(0,135,0)">None</span>:
-<span class="ansi-green-fg">    541</span> <span style="color: rgb(188,188,188)">    </span><span style="color: rgb(175,0,0)">"""</span>
-<span class="ansi-green-fg">    542</span> <span style="color: rgb(175,0,0)">    Reader using openpyxl engine.</span>
-<span class="ansi-green-fg">    543</span> 
-<span class="ansi-green-intense-fg ansi-bold">   (...)</span>
-<span class="ansi-green-fg">    550</span> <span style="color: rgb(175,0,0)">        Arbitrary keyword arguments passed to excel engine.</span>
-<span class="ansi-green-fg">    551</span> <span style="color: rgb(175,0,0)">    """</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 552</span>     import_optional_dependency(<span style="color: rgb(175,0,0)">"</span><span style="color: rgb(175,0,0)">openpyxl</span><span style="color: rgb(175,0,0)">"</span>)
-<span class="ansi-green-fg">    553</span>     <span style="color: rgb(0,135,0)">super</span>()<span style="color: rgb(98,98,98)">.</span><span style="color: rgb(0,0,255)">__init__</span>(
-<span class="ansi-green-fg">    554</span>         filepath_or_buffer,
-<span class="ansi-green-fg">    555</span>         storage_options<span style="color: rgb(98,98,98)">=</span>storage_options,
-<span class="ansi-green-fg">    556</span>         engine_kwargs<span style="color: rgb(98,98,98)">=</span>engine_kwargs,
-<span class="ansi-green-fg">    557</span>     )
-
-File <span class="ansi-green-intense-fg ansi-bold">D:\Anaconda\envs\my_environment\Lib\site-packages\pandas\compat\_optional.py:138</span>, in <span class="ansi-cyan-fg">import_optional_dependency</span><span class="ansi-blue-intense-fg ansi-bold">(name, extra, errors, min_version)</span>
-<span class="ansi-green-fg">    136</span> <span class="ansi-bold" style="color: rgb(0,135,0)">except</span> <span class="ansi-bold" style="color: rgb(215,95,95)">ImportError</span>:
-<span class="ansi-green-fg">    137</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> errors <span style="color: rgb(98,98,98)">==</span> <span style="color: rgb(175,0,0)">"</span><span style="color: rgb(175,0,0)">raise</span><span style="color: rgb(175,0,0)">"</span>:
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 138</span>         <span class="ansi-bold" style="color: rgb(0,135,0)">raise</span> <span class="ansi-bold" style="color: rgb(215,95,95)">ImportError</span>(msg)
-<span class="ansi-green-fg">    139</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span class="ansi-bold" style="color: rgb(0,135,0)">None</span>
-<span class="ansi-green-fg">    141</span> <span style="color: rgb(95,135,135)"># Handle submodules: if we have submodule, grab parent module from sys.modules</span>
-
-<span class="ansi-red-intense-fg ansi-bold">ImportError</span>: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.</pre>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>&lt;class 'pandas.core.frame.DataFrame'&gt;
+RangeIndex: 49 entries, 0 to 48
+Data columns (total 9 columns):
+ #   Column                                  Non-Null Count  Dtype  
+---  ------                                  --------------  -----  
+ 0   HDI rank                                49 non-null     float64
+ 1   Country                                 49 non-null     object 
+ 2   Human Development Index (HDI)           49 non-null     float64
+ 3   Life expectancy at birth                49 non-null     float64
+ 4   Expected years of schooling             49 non-null     float64
+ 5   Mean years of schooling                 49 non-null     float64
+ 6   Gross national income (GNI) per capita  49 non-null     float64
+ 7   GNI per capita rank minus HDI rank      49 non-null     float64
+ 8   HDI rank.1                              49 non-null     float64
+dtypes: float64(8), object(1)
+memory usage: 3.6+ KB
+</pre>
 </div>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=e2a5af40-d19c-43cc-9a20-fd7b29c1cb22">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=f52c3694-fb5c-49bd-9865-5857dc44910d">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#Corrigiendo el tercer dataframe</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=870e9e35-a08c-436e-8efc-1598811edd82">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">tercer_df</span> <span class="o">=</span> <span class="n">list_df</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+<span class="n">tercer_df</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[21]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>HDI rank</th>
+<th>Country</th>
+<th>Human Development Index (HDI)</th>
+<th>Unnamed: 3</th>
+<th>Life expectancy at birth</th>
+<th>Unnamed: 5</th>
+<th>Expected years of schooling</th>
+<th>Unnamed: 7</th>
+<th>Mean years of schooling</th>
+<th>Unnamed: 9</th>
+<th>Gross national income (GNI) per capita</th>
+<th>Unnamed: 11</th>
+<th>GNI per capita rank minus HDI rank</th>
+<th>Unnamed: 13</th>
+<th>HDI rank.1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>NaN</td>
+<td>NaN</td>
+<td>2021.000</td>
+<td>NaN</td>
+<td>2021.0000</td>
+<td>NaN</td>
+<td>2021.000000</td>
+<td>a</td>
+<td>2021.000000</td>
+<td>a</td>
+<td>2021.000000</td>
+<td>NaN</td>
+<td>2021.0</td>
+<td>b</td>
+<td>2020.0</td>
+</tr>
+<tr>
+<th>1</th>
+<td>NaN</td>
+<td>MEDIUM HUMAN DEVELOPMENT</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>2</th>
+<td>116.0</td>
+<td>Philippines</td>
+<td>0.699</td>
+<td>NaN</td>
+<td>69.2664</td>
+<td>NaN</td>
+<td>13.126570</td>
+<td>NaN</td>
+<td>8.969100</td>
+<td>NaN</td>
+<td>8920.428468</td>
+<td>NaN</td>
+<td>-3.0</td>
+<td>NaN</td>
+<td>113.0</td>
+</tr>
+<tr>
+<th>3</th>
+<td>117.0</td>
+<td>Botswana</td>
+<td>0.693</td>
+<td>NaN</td>
+<td>61.1409</td>
+<td>NaN</td>
+<td>12.265138</td>
+<td>e</td>
+<td>10.340000</td>
+<td>NaN</td>
+<td>16198.318410</td>
+<td>NaN</td>
+<td>-43.0</td>
+<td>NaN</td>
+<td>110.0</td>
+</tr>
+<tr>
+<th>4</th>
+<td>118.0</td>
+<td>Bolivia (Plurinational State of)</td>
+<td>0.692</td>
+<td>NaN</td>
+<td>63.6304</td>
+<td>NaN</td>
+<td>14.946971</td>
+<td>NaN</td>
+<td>9.827750</td>
+<td>NaN</td>
+<td>8111.190194</td>
+<td>NaN</td>
+<td>0.0</td>
+<td>NaN</td>
+<td>119.0</td>
+</tr>
+<tr>
+<th>5</th>
+<td>118.0</td>
+<td>Kyrgyzstan</td>
+<td>0.692</td>
+<td>NaN</td>
+<td>69.9774</td>
+<td>NaN</td>
+<td>13.195300</td>
+<td>NaN</td>
+<td>11.374106</td>
+<td>n</td>
+<td>4566.303831</td>
+<td>NaN</td>
+<td>26.0</td>
+<td>NaN</td>
+<td>121.0</td>
+</tr>
+<tr>
+<th>6</th>
+<td>120.0</td>
+<td>Venezuela (Bolivarian Republic of)</td>
+<td>0.691</td>
+<td>NaN</td>
+<td>70.5536</td>
+<td>NaN</td>
+<td>12.816080</td>
+<td>p</td>
+<td>11.107277</td>
+<td>e</td>
+<td>4810.882621</td>
+<td>t</td>
+<td>20.0</td>
+<td>NaN</td>
+<td>118.0</td>
+</tr>
+<tr>
+<th>7</th>
+<td>121.0</td>
+<td>Iraq</td>
+<td>0.686</td>
+<td>NaN</td>
+<td>70.3779</td>
+<td>NaN</td>
+<td>12.087473</td>
+<td>s</td>
+<td>7.905593</td>
+<td>m</td>
+<td>9977.249073</td>
+<td>NaN</td>
+<td>-12.0</td>
+<td>NaN</td>
+<td>122.0</td>
+</tr>
+<tr>
+<th>8</th>
+<td>122.0</td>
+<td>Tajikistan</td>
+<td>0.685</td>
+<td>NaN</td>
+<td>71.5942</td>
+<td>NaN</td>
+<td>11.653036</td>
+<td>e</td>
+<td>11.333394</td>
+<td>n</td>
+<td>4547.742427</td>
+<td>NaN</td>
+<td>23.0</td>
+<td>NaN</td>
+<td>126.0</td>
+</tr>
+<tr>
+<th>9</th>
+<td>123.0</td>
+<td>Belize</td>
+<td>0.683</td>
+<td>NaN</td>
+<td>70.4697</td>
+<td>NaN</td>
+<td>12.991690</td>
+<td>NaN</td>
+<td>8.847600</td>
+<td>NaN</td>
+<td>6309.099778</td>
+<td>NaN</td>
+<td>6.0</td>
+<td>NaN</td>
+<td>120.0</td>
+</tr>
+<tr>
+<th>10</th>
+<td>123.0</td>
+<td>Morocco</td>
+<td>0.683</td>
+<td>NaN</td>
+<td>74.0419</td>
+<td>NaN</td>
+<td>14.151910</td>
+<td>NaN</td>
+<td>5.916000</td>
+<td>NaN</td>
+<td>7302.819170</td>
+<td>NaN</td>
+<td>1.0</td>
+<td>NaN</td>
+<td>122.0</td>
+</tr>
+<tr>
+<th>11</th>
+<td>125.0</td>
+<td>El Salvador</td>
+<td>0.675</td>
+<td>NaN</td>
+<td>70.7479</td>
+<td>NaN</td>
+<td>12.671348</td>
+<td>o</td>
+<td>7.150930</td>
+<td>NaN</td>
+<td>8295.665889</td>
+<td>NaN</td>
+<td>-8.0</td>
+<td>NaN</td>
+<td>124.0</td>
+</tr>
+<tr>
+<th>12</th>
+<td>126.0</td>
+<td>Nicaragua</td>
+<td>0.667</td>
+<td>NaN</td>
+<td>73.8368</td>
+<td>NaN</td>
+<td>12.641358</td>
+<td>o</td>
+<td>7.144000</td>
+<td>NaN</td>
+<td>5624.793595</td>
+<td>NaN</td>
+<td>6.0</td>
+<td>NaN</td>
+<td>129.0</td>
+</tr>
+<tr>
+<th>13</th>
+<td>127.0</td>
+<td>Bhutan</td>
+<td>0.666</td>
+<td>NaN</td>
+<td>71.8150</td>
+<td>NaN</td>
+<td>13.225005</td>
+<td>e</td>
+<td>5.170262</td>
+<td>e</td>
+<td>9437.541512</td>
+<td>NaN</td>
+<td>-15.0</td>
+<td>NaN</td>
+<td>125.0</td>
+</tr>
+<tr>
+<th>14</th>
+<td>128.0</td>
+<td>Cabo Verde</td>
+<td>0.662</td>
+<td>NaN</td>
+<td>74.0518</td>
+<td>NaN</td>
+<td>12.554614</td>
+<td>e</td>
+<td>6.287719</td>
+<td>p</td>
+<td>6230.200199</td>
+<td>NaN</td>
+<td>2.0</td>
+<td>NaN</td>
+<td>127.0</td>
+</tr>
+<tr>
+<th>15</th>
+<td>129.0</td>
+<td>Bangladesh</td>
+<td>0.661</td>
+<td>NaN</td>
+<td>72.3811</td>
+<td>NaN</td>
+<td>12.441980</td>
+<td>NaN</td>
+<td>7.379060</td>
+<td>NaN</td>
+<td>5472.104781</td>
+<td>NaN</td>
+<td>4.0</td>
+<td>NaN</td>
+<td>128.0</td>
+</tr>
+<tr>
+<th>16</th>
+<td>130.0</td>
+<td>Tuvalu</td>
+<td>0.641</td>
+<td>NaN</td>
+<td>64.5466</td>
+<td>NaN</td>
+<td>9.404430</td>
+<td>e</td>
+<td>10.573108</td>
+<td>NaN</td>
+<td>6351.435899</td>
+<td>NaN</td>
+<td>-2.0</td>
+<td>NaN</td>
+<td>131.0</td>
+</tr>
+<tr>
+<th>17</th>
+<td>131.0</td>
+<td>Marshall Islands</td>
+<td>0.639</td>
+<td>NaN</td>
+<td>65.2688</td>
+<td>NaN</td>
+<td>10.239320</td>
+<td>NaN</td>
+<td>10.883140</td>
+<td>NaN</td>
+<td>4619.535393</td>
+<td>NaN</td>
+<td>12.0</td>
+<td>NaN</td>
+<td>131.0</td>
+</tr>
+<tr>
+<th>18</th>
+<td>132.0</td>
+<td>India</td>
+<td>0.633</td>
+<td>NaN</td>
+<td>67.2398</td>
+<td>NaN</td>
+<td>11.874620</td>
+<td>NaN</td>
+<td>6.655109</td>
+<td>n</td>
+<td>6589.980037</td>
+<td>NaN</td>
+<td>-6.0</td>
+<td>NaN</td>
+<td>130.0</td>
+</tr>
+<tr>
+<th>19</th>
+<td>133.0</td>
+<td>Ghana</td>
+<td>0.632</td>
+<td>NaN</td>
+<td>63.7954</td>
+<td>NaN</td>
+<td>12.047780</td>
+<td>NaN</td>
+<td>8.329887</td>
+<td>n</td>
+<td>5744.504017</td>
+<td>NaN</td>
+<td>-2.0</td>
+<td>NaN</td>
+<td>135.0</td>
+</tr>
+<tr>
+<th>20</th>
+<td>134.0</td>
+<td>Micronesia (Federated States of)</td>
+<td>0.628</td>
+<td>NaN</td>
+<td>70.7100</td>
+<td>NaN</td>
+<td>11.549480</td>
+<td>j</td>
+<td>7.804956</td>
+<td>l</td>
+<td>3696.173945</td>
+<td>NaN</td>
+<td>22.0</td>
+<td>NaN</td>
+<td>136.0</td>
+</tr>
+<tr>
+<th>21</th>
+<td>135.0</td>
+<td>Guatemala</td>
+<td>0.627</td>
+<td>NaN</td>
+<td>69.2368</td>
+<td>NaN</td>
+<td>10.562450</td>
+<td>NaN</td>
+<td>5.681300</td>
+<td>NaN</td>
+<td>8723.285317</td>
+<td>NaN</td>
+<td>-20.0</td>
+<td>NaN</td>
+<td>133.0</td>
+</tr>
+<tr>
+<th>22</th>
+<td>136.0</td>
+<td>Kiribati</td>
+<td>0.624</td>
+<td>NaN</td>
+<td>67.4172</td>
+<td>NaN</td>
+<td>11.801993</td>
+<td>NaN</td>
+<td>7.984462</td>
+<td>s</td>
+<td>4062.586034</td>
+<td>NaN</td>
+<td>14.0</td>
+<td>NaN</td>
+<td>137.0</td>
+</tr>
+<tr>
+<th>23</th>
+<td>137.0</td>
+<td>Honduras</td>
+<td>0.621</td>
+<td>NaN</td>
+<td>70.1229</td>
+<td>NaN</td>
+<td>10.132814</td>
+<td>o</td>
+<td>7.088480</td>
+<td>NaN</td>
+<td>5297.955301</td>
+<td>NaN</td>
+<td>-1.0</td>
+<td>NaN</td>
+<td>138.0</td>
+</tr>
+<tr>
+<th>24</th>
+<td>138.0</td>
+<td>Sao Tome and Principe</td>
+<td>0.618</td>
+<td>NaN</td>
+<td>67.5912</td>
+<td>NaN</td>
+<td>13.365385</td>
+<td>NaN</td>
+<td>6.215599</td>
+<td>m</td>
+<td>4021.350815</td>
+<td>NaN</td>
+<td>13.0</td>
+<td>NaN</td>
+<td>139.0</td>
+</tr>
+<tr>
+<th>25</th>
+<td>139.0</td>
+<td>Namibia</td>
+<td>0.615</td>
+<td>NaN</td>
+<td>59.2690</td>
+<td>NaN</td>
+<td>11.927207</td>
+<td>u</td>
+<td>7.192013</td>
+<td>n</td>
+<td>8633.504452</td>
+<td>NaN</td>
+<td>-23.0</td>
+<td>NaN</td>
+<td>134.0</td>
+</tr>
+<tr>
+<th>26</th>
+<td>140.0</td>
+<td>Lao People's Democratic Republic</td>
+<td>0.607</td>
+<td>NaN</td>
+<td>68.0608</td>
+<td>NaN</td>
+<td>10.136110</td>
+<td>NaN</td>
+<td>5.374000</td>
+<td>NaN</td>
+<td>7699.579617</td>
+<td>NaN</td>
+<td>-18.0</td>
+<td>NaN</td>
+<td>142.0</td>
+</tr>
+<tr>
+<th>27</th>
+<td>140.0</td>
+<td>Timor-Leste</td>
+<td>0.607</td>
+<td>NaN</td>
+<td>67.7369</td>
+<td>NaN</td>
+<td>12.616098</td>
+<td>p</td>
+<td>5.436790</td>
+<td>NaN</td>
+<td>4460.869435</td>
+<td>NaN</td>
+<td>7.0</td>
+<td>NaN</td>
+<td>140.0</td>
+</tr>
+<tr>
+<th>28</th>
+<td>140.0</td>
+<td>Vanuatu</td>
+<td>0.607</td>
+<td>NaN</td>
+<td>70.4490</td>
+<td>NaN</td>
+<td>11.535315</td>
+<td>e</td>
+<td>7.064846</td>
+<td>v</td>
+<td>3085.411633</td>
+<td>NaN</td>
+<td>23.0</td>
+<td>NaN</td>
+<td>142.0</td>
+</tr>
+<tr>
+<th>29</th>
+<td>143.0</td>
+<td>Nepal</td>
+<td>0.602</td>
+<td>NaN</td>
+<td>68.4495</td>
+<td>NaN</td>
+<td>12.886950</td>
+<td>NaN</td>
+<td>5.121793</td>
+<td>n</td>
+<td>3877.315444</td>
+<td>NaN</td>
+<td>10.0</td>
+<td>NaN</td>
+<td>144.0</td>
+</tr>
+<tr>
+<th>30</th>
+<td>144.0</td>
+<td>Eswatini (Kingdom of)</td>
+<td>0.597</td>
+<td>NaN</td>
+<td>57.0657</td>
+<td>NaN</td>
+<td>13.744346</td>
+<td>e</td>
+<td>5.596000</td>
+<td>NaN</td>
+<td>7678.591873</td>
+<td>NaN</td>
+<td>-21.0</td>
+<td>NaN</td>
+<td>141.0</td>
+</tr>
+<tr>
+<th>31</th>
+<td>145.0</td>
+<td>Equatorial Guinea</td>
+<td>0.596</td>
+<td>NaN</td>
+<td>60.5943</td>
+<td>NaN</td>
+<td>9.734940</td>
+<td>l</td>
+<td>5.910863</td>
+<td>j</td>
+<td>12073.959930</td>
+<td>NaN</td>
+<td>-47.0</td>
+<td>NaN</td>
+<td>147.0</td>
+</tr>
+<tr>
+<th>32</th>
+<td>146.0</td>
+<td>Cambodia</td>
+<td>0.593</td>
+<td>NaN</td>
+<td>69.5835</td>
+<td>NaN</td>
+<td>11.467720</td>
+<td>w</td>
+<td>5.088000</td>
+<td>NaN</td>
+<td>4078.697154</td>
+<td>NaN</td>
+<td>3.0</td>
+<td>NaN</td>
+<td>148.0</td>
+</tr>
+<tr>
+<th>33</th>
+<td>146.0</td>
+<td>Zimbabwe</td>
+<td>0.593</td>
+<td>NaN</td>
+<td>59.2531</td>
+<td>NaN</td>
+<td>12.110969</td>
+<td>e</td>
+<td>8.710909</td>
+<td>e</td>
+<td>3809.887158</td>
+<td>NaN</td>
+<td>9.0</td>
+<td>NaN</td>
+<td>145.0</td>
+</tr>
+<tr>
+<th>34</th>
+<td>148.0</td>
+<td>Angola</td>
+<td>0.586</td>
+<td>NaN</td>
+<td>61.6434</td>
+<td>NaN</td>
+<td>12.172100</td>
+<td>NaN</td>
+<td>5.417391</td>
+<td>NaN</td>
+<td>5465.617791</td>
+<td>NaN</td>
+<td>-14.0</td>
+<td>NaN</td>
+<td>149.0</td>
+</tr>
+<tr>
+<th>35</th>
+<td>149.0</td>
+<td>Myanmar</td>
+<td>0.585</td>
+<td>NaN</td>
+<td>65.6716</td>
+<td>NaN</td>
+<td>10.909138</td>
+<td>e</td>
+<td>6.376800</td>
+<td>NaN</td>
+<td>3850.524234</td>
+<td>NaN</td>
+<td>5.0</td>
+<td>NaN</td>
+<td>145.0</td>
+</tr>
+<tr>
+<th>36</th>
+<td>150.0</td>
+<td>Syrian Arab Republic</td>
+<td>0.577</td>
+<td>NaN</td>
+<td>72.0627</td>
+<td>NaN</td>
+<td>9.164220</td>
+<td>NaN</td>
+<td>5.100000</td>
+<td>l</td>
+<td>4191.933893</td>
+<td>x</td>
+<td>-2.0</td>
+<td>NaN</td>
+<td>152.0</td>
+</tr>
+<tr>
+<th>37</th>
+<td>151.0</td>
+<td>Cameroon</td>
+<td>0.576</td>
+<td>NaN</td>
+<td>60.3334</td>
+<td>NaN</td>
+<td>13.108599</td>
+<td>e</td>
+<td>6.151310</td>
+<td>n</td>
+<td>3620.932408</td>
+<td>NaN</td>
+<td>6.0</td>
+<td>NaN</td>
+<td>150.0</td>
+</tr>
+<tr>
+<th>38</th>
+<td>152.0</td>
+<td>Kenya</td>
+<td>0.575</td>
+<td>NaN</td>
+<td>61.4270</td>
+<td>NaN</td>
+<td>10.698558</td>
+<td>u</td>
+<td>6.652000</td>
+<td>NaN</td>
+<td>4473.570344</td>
+<td>NaN</td>
+<td>-6.0</td>
+<td>NaN</td>
+<td>150.0</td>
+</tr>
+<tr>
+<th>39</th>
+<td>153.0</td>
+<td>Congo</td>
+<td>0.571</td>
+<td>NaN</td>
+<td>63.5187</td>
+<td>NaN</td>
+<td>12.330815</td>
+<td>e</td>
+<td>6.166000</td>
+<td>NaN</td>
+<td>2889.283521</td>
+<td>NaN</td>
+<td>11.0</td>
+<td>NaN</td>
+<td>153.0</td>
+</tr>
+<tr>
+<th>40</th>
+<td>154.0</td>
+<td>Zambia</td>
+<td>0.565</td>
+<td>NaN</td>
+<td>61.2234</td>
+<td>NaN</td>
+<td>10.928760</td>
+<td>w</td>
+<td>7.187091</td>
+<td>n</td>
+<td>3217.767739</td>
+<td>NaN</td>
+<td>7.0</td>
+<td>NaN</td>
+<td>154.0</td>
+</tr>
+<tr>
+<th>41</th>
+<td>155.0</td>
+<td>Solomon Islands</td>
+<td>0.564</td>
+<td>NaN</td>
+<td>70.3477</td>
+<td>NaN</td>
+<td>10.328690</td>
+<td>e</td>
+<td>5.711848</td>
+<td>s</td>
+<td>2481.511362</td>
+<td>NaN</td>
+<td>13.0</td>
+<td>NaN</td>
+<td>155.0</td>
+</tr>
+<tr>
+<th>42</th>
+<td>156.0</td>
+<td>Comoros</td>
+<td>0.558</td>
+<td>NaN</td>
+<td>63.4174</td>
+<td>NaN</td>
+<td>11.924324</td>
+<td>e</td>
+<td>5.078649</td>
+<td>l</td>
+<td>3142.064119</td>
+<td>NaN</td>
+<td>6.0</td>
+<td>NaN</td>
+<td>156.0</td>
+</tr>
+<tr>
+<th>43</th>
+<td>156.0</td>
+<td>Papua New Guinea</td>
+<td>0.558</td>
+<td>NaN</td>
+<td>65.3506</td>
+<td>NaN</td>
+<td>10.360771</td>
+<td>u</td>
+<td>4.740000</td>
+<td>NaN</td>
+<td>4008.623573</td>
+<td>NaN</td>
+<td>-4.0</td>
+<td>NaN</td>
+<td>157.0</td>
+</tr>
+<tr>
+<th>44</th>
+<td>158.0</td>
+<td>Mauritania</td>
+<td>0.556</td>
+<td>NaN</td>
+<td>64.3636</td>
+<td>NaN</td>
+<td>9.376160</td>
+<td>NaN</td>
+<td>4.918805</td>
+<td>n</td>
+<td>5075.305711</td>
+<td>NaN</td>
+<td>-20.0</td>
+<td>NaN</td>
+<td>158.0</td>
+</tr>
+<tr>
+<th>45</th>
+<td>159.0</td>
+<td>Côte d'Ivoire</td>
+<td>0.550</td>
+<td>NaN</td>
+<td>58.5983</td>
+<td>NaN</td>
+<td>10.675580</td>
+<td>NaN</td>
+<td>5.199139</td>
+<td>n</td>
+<td>5217.448516</td>
+<td>NaN</td>
+<td>-22.0</td>
+<td>NaN</td>
+<td>159.0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=940c35ec-59b4-4189-b829-93790da6cf4c">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [22]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">tercer_df</span> <span class="o">=</span> <span class="n">tercer_df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">2</span><span class="p">:]</span>
+<span class="n">tercer_df</span> <span class="o">=</span> <span class="n">tercer_df</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">tercer_df</span> <span class="o">=</span> <span class="n">tercer_df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">tercer_df</span><span class="o">.</span><span class="n">columns</span><span class="p">[[</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="mi">11</span><span class="p">,</span><span class="mi">13</span><span class="p">]],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">tercer_df</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[22]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>HDI rank</th>
+<th>Country</th>
+<th>Human Development Index (HDI)</th>
+<th>Life expectancy at birth</th>
+<th>Expected years of schooling</th>
+<th>Mean years of schooling</th>
+<th>Gross national income (GNI) per capita</th>
+<th>GNI per capita rank minus HDI rank</th>
+<th>HDI rank.1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>116.0</td>
+<td>Philippines</td>
+<td>0.699</td>
+<td>69.2664</td>
+<td>13.126570</td>
+<td>8.969100</td>
+<td>8920.428468</td>
+<td>-3.0</td>
+<td>113.0</td>
+</tr>
+<tr>
+<th>1</th>
+<td>117.0</td>
+<td>Botswana</td>
+<td>0.693</td>
+<td>61.1409</td>
+<td>12.265138</td>
+<td>10.340000</td>
+<td>16198.318410</td>
+<td>-43.0</td>
+<td>110.0</td>
+</tr>
+<tr>
+<th>2</th>
+<td>118.0</td>
+<td>Bolivia (Plurinational State of)</td>
+<td>0.692</td>
+<td>63.6304</td>
+<td>14.946971</td>
+<td>9.827750</td>
+<td>8111.190194</td>
+<td>0.0</td>
+<td>119.0</td>
+</tr>
+<tr>
+<th>3</th>
+<td>118.0</td>
+<td>Kyrgyzstan</td>
+<td>0.692</td>
+<td>69.9774</td>
+<td>13.195300</td>
+<td>11.374106</td>
+<td>4566.303831</td>
+<td>26.0</td>
+<td>121.0</td>
+</tr>
+<tr>
+<th>4</th>
+<td>120.0</td>
+<td>Venezuela (Bolivarian Republic of)</td>
+<td>0.691</td>
+<td>70.5536</td>
+<td>12.816080</td>
+<td>11.107277</td>
+<td>4810.882621</td>
+<td>20.0</td>
+<td>118.0</td>
+</tr>
+<tr>
+<th>5</th>
+<td>121.0</td>
+<td>Iraq</td>
+<td>0.686</td>
+<td>70.3779</td>
+<td>12.087473</td>
+<td>7.905593</td>
+<td>9977.249073</td>
+<td>-12.0</td>
+<td>122.0</td>
+</tr>
+<tr>
+<th>6</th>
+<td>122.0</td>
+<td>Tajikistan</td>
+<td>0.685</td>
+<td>71.5942</td>
+<td>11.653036</td>
+<td>11.333394</td>
+<td>4547.742427</td>
+<td>23.0</td>
+<td>126.0</td>
+</tr>
+<tr>
+<th>7</th>
+<td>123.0</td>
+<td>Belize</td>
+<td>0.683</td>
+<td>70.4697</td>
+<td>12.991690</td>
+<td>8.847600</td>
+<td>6309.099778</td>
+<td>6.0</td>
+<td>120.0</td>
+</tr>
+<tr>
+<th>8</th>
+<td>123.0</td>
+<td>Morocco</td>
+<td>0.683</td>
+<td>74.0419</td>
+<td>14.151910</td>
+<td>5.916000</td>
+<td>7302.819170</td>
+<td>1.0</td>
+<td>122.0</td>
+</tr>
+<tr>
+<th>9</th>
+<td>125.0</td>
+<td>El Salvador</td>
+<td>0.675</td>
+<td>70.7479</td>
+<td>12.671348</td>
+<td>7.150930</td>
+<td>8295.665889</td>
+<td>-8.0</td>
+<td>124.0</td>
+</tr>
+<tr>
+<th>10</th>
+<td>126.0</td>
+<td>Nicaragua</td>
+<td>0.667</td>
+<td>73.8368</td>
+<td>12.641358</td>
+<td>7.144000</td>
+<td>5624.793595</td>
+<td>6.0</td>
+<td>129.0</td>
+</tr>
+<tr>
+<th>11</th>
+<td>127.0</td>
+<td>Bhutan</td>
+<td>0.666</td>
+<td>71.8150</td>
+<td>13.225005</td>
+<td>5.170262</td>
+<td>9437.541512</td>
+<td>-15.0</td>
+<td>125.0</td>
+</tr>
+<tr>
+<th>12</th>
+<td>128.0</td>
+<td>Cabo Verde</td>
+<td>0.662</td>
+<td>74.0518</td>
+<td>12.554614</td>
+<td>6.287719</td>
+<td>6230.200199</td>
+<td>2.0</td>
+<td>127.0</td>
+</tr>
+<tr>
+<th>13</th>
+<td>129.0</td>
+<td>Bangladesh</td>
+<td>0.661</td>
+<td>72.3811</td>
+<td>12.441980</td>
+<td>7.379060</td>
+<td>5472.104781</td>
+<td>4.0</td>
+<td>128.0</td>
+</tr>
+<tr>
+<th>14</th>
+<td>130.0</td>
+<td>Tuvalu</td>
+<td>0.641</td>
+<td>64.5466</td>
+<td>9.404430</td>
+<td>10.573108</td>
+<td>6351.435899</td>
+<td>-2.0</td>
+<td>131.0</td>
+</tr>
+<tr>
+<th>15</th>
+<td>131.0</td>
+<td>Marshall Islands</td>
+<td>0.639</td>
+<td>65.2688</td>
+<td>10.239320</td>
+<td>10.883140</td>
+<td>4619.535393</td>
+<td>12.0</td>
+<td>131.0</td>
+</tr>
+<tr>
+<th>16</th>
+<td>132.0</td>
+<td>India</td>
+<td>0.633</td>
+<td>67.2398</td>
+<td>11.874620</td>
+<td>6.655109</td>
+<td>6589.980037</td>
+<td>-6.0</td>
+<td>130.0</td>
+</tr>
+<tr>
+<th>17</th>
+<td>133.0</td>
+<td>Ghana</td>
+<td>0.632</td>
+<td>63.7954</td>
+<td>12.047780</td>
+<td>8.329887</td>
+<td>5744.504017</td>
+<td>-2.0</td>
+<td>135.0</td>
+</tr>
+<tr>
+<th>18</th>
+<td>134.0</td>
+<td>Micronesia (Federated States of)</td>
+<td>0.628</td>
+<td>70.7100</td>
+<td>11.549480</td>
+<td>7.804956</td>
+<td>3696.173945</td>
+<td>22.0</td>
+<td>136.0</td>
+</tr>
+<tr>
+<th>19</th>
+<td>135.0</td>
+<td>Guatemala</td>
+<td>0.627</td>
+<td>69.2368</td>
+<td>10.562450</td>
+<td>5.681300</td>
+<td>8723.285317</td>
+<td>-20.0</td>
+<td>133.0</td>
+</tr>
+<tr>
+<th>20</th>
+<td>136.0</td>
+<td>Kiribati</td>
+<td>0.624</td>
+<td>67.4172</td>
+<td>11.801993</td>
+<td>7.984462</td>
+<td>4062.586034</td>
+<td>14.0</td>
+<td>137.0</td>
+</tr>
+<tr>
+<th>21</th>
+<td>137.0</td>
+<td>Honduras</td>
+<td>0.621</td>
+<td>70.1229</td>
+<td>10.132814</td>
+<td>7.088480</td>
+<td>5297.955301</td>
+<td>-1.0</td>
+<td>138.0</td>
+</tr>
+<tr>
+<th>22</th>
+<td>138.0</td>
+<td>Sao Tome and Principe</td>
+<td>0.618</td>
+<td>67.5912</td>
+<td>13.365385</td>
+<td>6.215599</td>
+<td>4021.350815</td>
+<td>13.0</td>
+<td>139.0</td>
+</tr>
+<tr>
+<th>23</th>
+<td>139.0</td>
+<td>Namibia</td>
+<td>0.615</td>
+<td>59.2690</td>
+<td>11.927207</td>
+<td>7.192013</td>
+<td>8633.504452</td>
+<td>-23.0</td>
+<td>134.0</td>
+</tr>
+<tr>
+<th>24</th>
+<td>140.0</td>
+<td>Lao People's Democratic Republic</td>
+<td>0.607</td>
+<td>68.0608</td>
+<td>10.136110</td>
+<td>5.374000</td>
+<td>7699.579617</td>
+<td>-18.0</td>
+<td>142.0</td>
+</tr>
+<tr>
+<th>25</th>
+<td>140.0</td>
+<td>Timor-Leste</td>
+<td>0.607</td>
+<td>67.7369</td>
+<td>12.616098</td>
+<td>5.436790</td>
+<td>4460.869435</td>
+<td>7.0</td>
+<td>140.0</td>
+</tr>
+<tr>
+<th>26</th>
+<td>140.0</td>
+<td>Vanuatu</td>
+<td>0.607</td>
+<td>70.4490</td>
+<td>11.535315</td>
+<td>7.064846</td>
+<td>3085.411633</td>
+<td>23.0</td>
+<td>142.0</td>
+</tr>
+<tr>
+<th>27</th>
+<td>143.0</td>
+<td>Nepal</td>
+<td>0.602</td>
+<td>68.4495</td>
+<td>12.886950</td>
+<td>5.121793</td>
+<td>3877.315444</td>
+<td>10.0</td>
+<td>144.0</td>
+</tr>
+<tr>
+<th>28</th>
+<td>144.0</td>
+<td>Eswatini (Kingdom of)</td>
+<td>0.597</td>
+<td>57.0657</td>
+<td>13.744346</td>
+<td>5.596000</td>
+<td>7678.591873</td>
+<td>-21.0</td>
+<td>141.0</td>
+</tr>
+<tr>
+<th>29</th>
+<td>145.0</td>
+<td>Equatorial Guinea</td>
+<td>0.596</td>
+<td>60.5943</td>
+<td>9.734940</td>
+<td>5.910863</td>
+<td>12073.959930</td>
+<td>-47.0</td>
+<td>147.0</td>
+</tr>
+<tr>
+<th>30</th>
+<td>146.0</td>
+<td>Cambodia</td>
+<td>0.593</td>
+<td>69.5835</td>
+<td>11.467720</td>
+<td>5.088000</td>
+<td>4078.697154</td>
+<td>3.0</td>
+<td>148.0</td>
+</tr>
+<tr>
+<th>31</th>
+<td>146.0</td>
+<td>Zimbabwe</td>
+<td>0.593</td>
+<td>59.2531</td>
+<td>12.110969</td>
+<td>8.710909</td>
+<td>3809.887158</td>
+<td>9.0</td>
+<td>145.0</td>
+</tr>
+<tr>
+<th>32</th>
+<td>148.0</td>
+<td>Angola</td>
+<td>0.586</td>
+<td>61.6434</td>
+<td>12.172100</td>
+<td>5.417391</td>
+<td>5465.617791</td>
+<td>-14.0</td>
+<td>149.0</td>
+</tr>
+<tr>
+<th>33</th>
+<td>149.0</td>
+<td>Myanmar</td>
+<td>0.585</td>
+<td>65.6716</td>
+<td>10.909138</td>
+<td>6.376800</td>
+<td>3850.524234</td>
+<td>5.0</td>
+<td>145.0</td>
+</tr>
+<tr>
+<th>34</th>
+<td>150.0</td>
+<td>Syrian Arab Republic</td>
+<td>0.577</td>
+<td>72.0627</td>
+<td>9.164220</td>
+<td>5.100000</td>
+<td>4191.933893</td>
+<td>-2.0</td>
+<td>152.0</td>
+</tr>
+<tr>
+<th>35</th>
+<td>151.0</td>
+<td>Cameroon</td>
+<td>0.576</td>
+<td>60.3334</td>
+<td>13.108599</td>
+<td>6.151310</td>
+<td>3620.932408</td>
+<td>6.0</td>
+<td>150.0</td>
+</tr>
+<tr>
+<th>36</th>
+<td>152.0</td>
+<td>Kenya</td>
+<td>0.575</td>
+<td>61.4270</td>
+<td>10.698558</td>
+<td>6.652000</td>
+<td>4473.570344</td>
+<td>-6.0</td>
+<td>150.0</td>
+</tr>
+<tr>
+<th>37</th>
+<td>153.0</td>
+<td>Congo</td>
+<td>0.571</td>
+<td>63.5187</td>
+<td>12.330815</td>
+<td>6.166000</td>
+<td>2889.283521</td>
+<td>11.0</td>
+<td>153.0</td>
+</tr>
+<tr>
+<th>38</th>
+<td>154.0</td>
+<td>Zambia</td>
+<td>0.565</td>
+<td>61.2234</td>
+<td>10.928760</td>
+<td>7.187091</td>
+<td>3217.767739</td>
+<td>7.0</td>
+<td>154.0</td>
+</tr>
+<tr>
+<th>39</th>
+<td>155.0</td>
+<td>Solomon Islands</td>
+<td>0.564</td>
+<td>70.3477</td>
+<td>10.328690</td>
+<td>5.711848</td>
+<td>2481.511362</td>
+<td>13.0</td>
+<td>155.0</td>
+</tr>
+<tr>
+<th>40</th>
+<td>156.0</td>
+<td>Comoros</td>
+<td>0.558</td>
+<td>63.4174</td>
+<td>11.924324</td>
+<td>5.078649</td>
+<td>3142.064119</td>
+<td>6.0</td>
+<td>156.0</td>
+</tr>
+<tr>
+<th>41</th>
+<td>156.0</td>
+<td>Papua New Guinea</td>
+<td>0.558</td>
+<td>65.3506</td>
+<td>10.360771</td>
+<td>4.740000</td>
+<td>4008.623573</td>
+<td>-4.0</td>
+<td>157.0</td>
+</tr>
+<tr>
+<th>42</th>
+<td>158.0</td>
+<td>Mauritania</td>
+<td>0.556</td>
+<td>64.3636</td>
+<td>9.376160</td>
+<td>4.918805</td>
+<td>5075.305711</td>
+<td>-20.0</td>
+<td>158.0</td>
+</tr>
+<tr>
+<th>43</th>
+<td>159.0</td>
+<td>Côte d'Ivoire</td>
+<td>0.550</td>
+<td>58.5983</td>
+<td>10.675580</td>
+<td>5.199139</td>
+<td>5217.448516</td>
+<td>-22.0</td>
+<td>159.0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=99956054-1ec7-4eee-b27a-28e81628dbe2">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">list_df</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="n">tercer_df</span>
+<span class="n">list_df</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>&lt;class 'pandas.core.frame.DataFrame'&gt;
+RangeIndex: 44 entries, 0 to 43
+Data columns (total 9 columns):
+ #   Column                                  Non-Null Count  Dtype  
+---  ------                                  --------------  -----  
+ 0   HDI rank                                44 non-null     float64
+ 1   Country                                 44 non-null     object 
+ 2   Human Development Index (HDI)           44 non-null     float64
+ 3   Life expectancy at birth                44 non-null     float64
+ 4   Expected years of schooling             44 non-null     float64
+ 5   Mean years of schooling                 44 non-null     float64
+ 6   Gross national income (GNI) per capita  44 non-null     float64
+ 7   GNI per capita rank minus HDI rank      44 non-null     float64
+ 8   HDI rank.1                              44 non-null     float64
+dtypes: float64(8), object(1)
+memory usage: 3.2+ KB
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=5bf7c541-448a-444f-8a76-02dbb13bd4f9">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#Corrigiendo el cuarto dataframe</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=afa22655-5e0e-4c7e-bced-8f8e36fe1295">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [25]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">cuarto_df</span> <span class="o">=</span> <span class="n">list_df</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span>
+<span class="n">cuarto_df</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[25]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>HDI rank</th>
+<th>Country</th>
+<th>Unnamed: 2</th>
+<th>Human Development Index (HDI)</th>
+<th>Life expectancy at birth</th>
+<th>Expected years of schooling</th>
+<th>Mean years of schooling</th>
+<th>Gross national income (GNI) per capita</th>
+<th>GNI per capita rank minus HDI rank</th>
+<th>le</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>160</td>
+<td>Tanzania (United Republic of)</td>
+<td>LOW HUMAN DEVELOPMENT</td>
+<td>0.549</td>
+<td>66.2007</td>
+<td>9.221490</td>
+<td>6.372899</td>
+<td>2664.329096</td>
+<td>7</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>1</th>
+<td>161</td>
+<td>Pakistan</td>
+<td>LOW HUMAN DEVELOPMENT</td>
+<td>0.544</td>
+<td>66.0979</td>
+<td>8.658350</td>
+<td>4.536330</td>
+<td>4623.705430</td>
+<td>-19</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>2</th>
+<td>162</td>
+<td>Togo</td>
+<td>LOW HUMAN DEVELOPMENT</td>
+<td>0.539</td>
+<td>61.6194</td>
+<td>12.950494</td>
+<td>5.016807</td>
+<td>2166.619062</td>
+<td>12</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>3</th>
+<td>163</td>
+<td>Haiti</td>
+<td>LOW HUMAN DEVELOPMENT</td>
+<td>0.535</td>
+<td>63.1924</td>
+<td>9.700000</td>
+<td>5.554000</td>
+<td>2847.500746</td>
+<td>2</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>4</th>
+<td>163</td>
+<td>Nigeria</td>
+<td>LOW HUMAN DEVELOPMENT</td>
+<td>0.535</td>
+<td>52.6760</td>
+<td>10.127584</td>
+<td>7.181074</td>
+<td>4790.284425</td>
+<td>-22</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>5</th>
+<td>165</td>
+<td>Rwanda</td>
+<td>LOW HUMAN DEVELOPMENT</td>
+<td>0.534</td>
+<td>66.0722</td>
+<td>11.230970</td>
+<td>4.425292</td>
+<td>2209.795202</td>
+<td>6</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>6</th>
+<td>166</td>
+<td>Benin</td>
+<td>LOW HUMAN DEVELOPMENT</td>
+<td>0.525</td>
+<td>59.8210</td>
+<td>10.766680</td>
+<td>4.304786</td>
+<td>3408.965923</td>
+<td>-7</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>7</th>
+<td>166</td>
+<td>Uganda</td>
+<td>LOW HUMAN DEVELOPMENT</td>
+<td>0.525</td>
+<td>62.7048</td>
+<td>10.149870</td>
+<td>5.730942</td>
+<td>2181.436510</td>
+<td>6</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>8</th>
+<td>168</td>
+<td>Lesotho</td>
+<td>LOW HUMAN DEVELOPMENT</td>
+<td>0.514</td>
+<td>53.0620</td>
+<td>12.040878</td>
+<td>6.010185</td>
+<td>2700.435748</td>
+<td>-2</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>9</th>
+<td>169</td>
+<td>Malawi</td>
+<td>LOW HUMAN DEVELOPMENT</td>
+<td>0.512</td>
+<td>62.9044</td>
+<td>12.678985</td>
+<td>4.489695</td>
+<td>1465.635064</td>
+<td>13</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>10</th>
+<td>170</td>
+<td>Senegal</td>
+<td>LOW HUMAN DEVELOPMENT</td>
+<td>0.511</td>
+<td>67.0926</td>
+<td>8.963750</td>
+<td>2.937938</td>
+<td>3344.311825</td>
+<td>-10</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>11</th>
+<td>171</td>
+<td>Djibouti</td>
+<td>LOW HUMAN DEVELOPMENT</td>
+<td>0.509</td>
+<td>62.3049</td>
+<td>7.432980</td>
+<td>4.100000</td>
+<td>5024.993944</td>
+<td>-32</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>12</th>
+<td>172</td>
+<td>Sudan</td>
+<td>LOW HUMAN DEVELOPMENT</td>
+<td>0.508</td>
+<td>65.2667</td>
+<td>7.945188</td>
+<td>3.820000</td>
+<td>3575.190840</td>
+<td>-14</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>13</th>
+<td>173</td>
+<td>Madagascar</td>
+<td>LOW HUMAN DEVELOPMENT</td>
+<td>0.501</td>
+<td>64.4853</td>
+<td>10.134991</td>
+<td>5.120469</td>
+<td>1483.520983</td>
+<td>8</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>14</th>
+<td>174</td>
+<td>Gambia</td>
+<td>LOW HUMAN DEVELOPMENT</td>
+<td>0.500</td>
+<td>62.0830</td>
+<td>9.418626</td>
+<td>4.637487</td>
+<td>2172.207664</td>
+<td>-1</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>15</th>
+<td>175</td>
+<td>Ethiopia</td>
+<td>LOW HUMAN DEVELOPMENT</td>
+<td>0.498</td>
+<td>64.9748</td>
+<td>9.651071</td>
+<td>3.201521</td>
+<td>2361.069604</td>
+<td>-5</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>16</th>
+<td>176</td>
+<td>Eritrea</td>
+<td>LOW HUMAN DEVELOPMENT</td>
+<td>0.492</td>
+<td>66.5358</td>
+<td>8.064525</td>
+<td>4.887235</td>
+<td>1728.742667</td>
+<td>3</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>17</th>
+<td>177</td>
+<td>Guinea-Bissau</td>
+<td>LOW HUMAN DEVELOPMENT</td>
+<td>0.483</td>
+<td>59.6523</td>
+<td>10.613063</td>
+<td>3.583719</td>
+<td>1908.241590</td>
+<td>0</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>18</th>
+<td>178</td>
+<td>Liberia</td>
+<td>LOW HUMAN DEVELOPMENT</td>
+<td>0.481</td>
+<td>60.7472</td>
+<td>10.420790</td>
+<td>5.082000</td>
+<td>1288.742350</td>
+<td>7</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>19</th>
+<td>179</td>
+<td>Congo (Democratic Republic of the)</td>
+<td>LOW HUMAN DEVELOPMENT</td>
+<td>0.479</td>
+<td>59.1930</td>
+<td>9.817864</td>
+<td>7.018697</td>
+<td>1076.098781</td>
+<td>9</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>20</th>
+<td>180</td>
+<td>Afghanistan</td>
+<td>LOW HUMAN DEVELOPMENT</td>
+<td>0.478</td>
+<td>61.9824</td>
+<td>10.263844</td>
+<td>2.985070</td>
+<td>1824.190915</td>
+<td>-2</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>21</th>
+<td>181</td>
+<td>Sierra Leone</td>
+<td>LOW HUMAN DEVELOPMENT</td>
+<td>0.477</td>
+<td>60.0624</td>
+<td>9.573391</td>
+<td>4.576081</td>
+<td>1621.512579</td>
+<td>-1</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>22</th>
+<td>182</td>
+<td>Guinea</td>
+<td>LOW HUMAN DEVELOPMENT</td>
+<td>0.465</td>
+<td>58.8922</td>
+<td>9.805297</td>
+<td>2.202126</td>
+<td>2480.887182</td>
+<td>-13</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>23</th>
+<td>183</td>
+<td>Yemen</td>
+<td>LOW HUMAN DEVELOPMENT</td>
+<td>0.455</td>
+<td>63.7534</td>
+<td>9.098710</td>
+<td>3.200000</td>
+<td>1314.270189</td>
+<td>1</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>24</th>
+<td>184</td>
+<td>Burkina Faso</td>
+<td>LOW HUMAN DEVELOPMENT</td>
+<td>0.449</td>
+<td>59.2696</td>
+<td>9.142100</td>
+<td>2.114962</td>
+<td>2117.915916</td>
+<td>-8</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>25</th>
+<td>185</td>
+<td>Mozambique</td>
+<td>LOW HUMAN DEVELOPMENT</td>
+<td>0.446</td>
+<td>59.3247</td>
+<td>10.219152</td>
+<td>3.197642</td>
+<td>1198.073924</td>
+<td>2</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>26</th>
+<td>186</td>
+<td>Mali</td>
+<td>LOW HUMAN DEVELOPMENT</td>
+<td>0.428</td>
+<td>58.9414</td>
+<td>7.423038</td>
+<td>2.310000</td>
+<td>2132.629443</td>
+<td>-11</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>27</th>
+<td>187</td>
+<td>Burundi</td>
+<td>LOW HUMAN DEVELOPMENT</td>
+<td>0.426</td>
+<td>61.6627</td>
+<td>10.722722</td>
+<td>3.129267</td>
+<td>731.786709</td>
+<td>4</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>28</th>
+<td>188</td>
+<td>Central African Republic</td>
+<td>LOW HUMAN DEVELOPMENT</td>
+<td>0.404</td>
+<td>53.8947</td>
+<td>8.040172</td>
+<td>4.334000</td>
+<td>966.058611</td>
+<td>1</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>29</th>
+<td>189</td>
+<td>Niger</td>
+<td>LOW HUMAN DEVELOPMENT</td>
+<td>0.400</td>
+<td>61.5763</td>
+<td>6.957112</td>
+<td>2.116717</td>
+<td>1239.866936</td>
+<td>-3</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>30</th>
+<td>190</td>
+<td>Chad</td>
+<td>LOW HUMAN DEVELOPMENT</td>
+<td>0.394</td>
+<td>52.5254</td>
+<td>8.035914</td>
+<td>2.573774</td>
+<td>1364.169417</td>
+<td>-7</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>31</th>
+<td>191</td>
+<td>South Sudan</td>
+<td>LOW HUMAN DEVELOPMENT</td>
+<td>0.385</td>
+<td>54.9752</td>
+<td>5.542510</td>
+<td>5.726140</td>
+<td>767.787000</td>
+<td>-1</td>
+<td>NaN</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=6a8a2303-0520-4d65-9084-b8b3d0b64edd">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">cuarto_df</span> <span class="o">=</span> <span class="n">cuarto_df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">cuarto_df</span><span class="o">.</span><span class="n">columns</span><span class="p">[[</span><span class="mi">2</span><span class="p">,</span><span class="mi">9</span><span class="p">]],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">cuarto_df</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[26]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>HDI rank</th>
+<th>Country</th>
+<th>Human Development Index (HDI)</th>
+<th>Life expectancy at birth</th>
+<th>Expected years of schooling</th>
+<th>Mean years of schooling</th>
+<th>Gross national income (GNI) per capita</th>
+<th>GNI per capita rank minus HDI rank</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>160</td>
+<td>Tanzania (United Republic of)</td>
+<td>0.549</td>
+<td>66.2007</td>
+<td>9.221490</td>
+<td>6.372899</td>
+<td>2664.329096</td>
+<td>7</td>
+</tr>
+<tr>
+<th>1</th>
+<td>161</td>
+<td>Pakistan</td>
+<td>0.544</td>
+<td>66.0979</td>
+<td>8.658350</td>
+<td>4.536330</td>
+<td>4623.705430</td>
+<td>-19</td>
+</tr>
+<tr>
+<th>2</th>
+<td>162</td>
+<td>Togo</td>
+<td>0.539</td>
+<td>61.6194</td>
+<td>12.950494</td>
+<td>5.016807</td>
+<td>2166.619062</td>
+<td>12</td>
+</tr>
+<tr>
+<th>3</th>
+<td>163</td>
+<td>Haiti</td>
+<td>0.535</td>
+<td>63.1924</td>
+<td>9.700000</td>
+<td>5.554000</td>
+<td>2847.500746</td>
+<td>2</td>
+</tr>
+<tr>
+<th>4</th>
+<td>163</td>
+<td>Nigeria</td>
+<td>0.535</td>
+<td>52.6760</td>
+<td>10.127584</td>
+<td>7.181074</td>
+<td>4790.284425</td>
+<td>-22</td>
+</tr>
+<tr>
+<th>5</th>
+<td>165</td>
+<td>Rwanda</td>
+<td>0.534</td>
+<td>66.0722</td>
+<td>11.230970</td>
+<td>4.425292</td>
+<td>2209.795202</td>
+<td>6</td>
+</tr>
+<tr>
+<th>6</th>
+<td>166</td>
+<td>Benin</td>
+<td>0.525</td>
+<td>59.8210</td>
+<td>10.766680</td>
+<td>4.304786</td>
+<td>3408.965923</td>
+<td>-7</td>
+</tr>
+<tr>
+<th>7</th>
+<td>166</td>
+<td>Uganda</td>
+<td>0.525</td>
+<td>62.7048</td>
+<td>10.149870</td>
+<td>5.730942</td>
+<td>2181.436510</td>
+<td>6</td>
+</tr>
+<tr>
+<th>8</th>
+<td>168</td>
+<td>Lesotho</td>
+<td>0.514</td>
+<td>53.0620</td>
+<td>12.040878</td>
+<td>6.010185</td>
+<td>2700.435748</td>
+<td>-2</td>
+</tr>
+<tr>
+<th>9</th>
+<td>169</td>
+<td>Malawi</td>
+<td>0.512</td>
+<td>62.9044</td>
+<td>12.678985</td>
+<td>4.489695</td>
+<td>1465.635064</td>
+<td>13</td>
+</tr>
+<tr>
+<th>10</th>
+<td>170</td>
+<td>Senegal</td>
+<td>0.511</td>
+<td>67.0926</td>
+<td>8.963750</td>
+<td>2.937938</td>
+<td>3344.311825</td>
+<td>-10</td>
+</tr>
+<tr>
+<th>11</th>
+<td>171</td>
+<td>Djibouti</td>
+<td>0.509</td>
+<td>62.3049</td>
+<td>7.432980</td>
+<td>4.100000</td>
+<td>5024.993944</td>
+<td>-32</td>
+</tr>
+<tr>
+<th>12</th>
+<td>172</td>
+<td>Sudan</td>
+<td>0.508</td>
+<td>65.2667</td>
+<td>7.945188</td>
+<td>3.820000</td>
+<td>3575.190840</td>
+<td>-14</td>
+</tr>
+<tr>
+<th>13</th>
+<td>173</td>
+<td>Madagascar</td>
+<td>0.501</td>
+<td>64.4853</td>
+<td>10.134991</td>
+<td>5.120469</td>
+<td>1483.520983</td>
+<td>8</td>
+</tr>
+<tr>
+<th>14</th>
+<td>174</td>
+<td>Gambia</td>
+<td>0.500</td>
+<td>62.0830</td>
+<td>9.418626</td>
+<td>4.637487</td>
+<td>2172.207664</td>
+<td>-1</td>
+</tr>
+<tr>
+<th>15</th>
+<td>175</td>
+<td>Ethiopia</td>
+<td>0.498</td>
+<td>64.9748</td>
+<td>9.651071</td>
+<td>3.201521</td>
+<td>2361.069604</td>
+<td>-5</td>
+</tr>
+<tr>
+<th>16</th>
+<td>176</td>
+<td>Eritrea</td>
+<td>0.492</td>
+<td>66.5358</td>
+<td>8.064525</td>
+<td>4.887235</td>
+<td>1728.742667</td>
+<td>3</td>
+</tr>
+<tr>
+<th>17</th>
+<td>177</td>
+<td>Guinea-Bissau</td>
+<td>0.483</td>
+<td>59.6523</td>
+<td>10.613063</td>
+<td>3.583719</td>
+<td>1908.241590</td>
+<td>0</td>
+</tr>
+<tr>
+<th>18</th>
+<td>178</td>
+<td>Liberia</td>
+<td>0.481</td>
+<td>60.7472</td>
+<td>10.420790</td>
+<td>5.082000</td>
+<td>1288.742350</td>
+<td>7</td>
+</tr>
+<tr>
+<th>19</th>
+<td>179</td>
+<td>Congo (Democratic Republic of the)</td>
+<td>0.479</td>
+<td>59.1930</td>
+<td>9.817864</td>
+<td>7.018697</td>
+<td>1076.098781</td>
+<td>9</td>
+</tr>
+<tr>
+<th>20</th>
+<td>180</td>
+<td>Afghanistan</td>
+<td>0.478</td>
+<td>61.9824</td>
+<td>10.263844</td>
+<td>2.985070</td>
+<td>1824.190915</td>
+<td>-2</td>
+</tr>
+<tr>
+<th>21</th>
+<td>181</td>
+<td>Sierra Leone</td>
+<td>0.477</td>
+<td>60.0624</td>
+<td>9.573391</td>
+<td>4.576081</td>
+<td>1621.512579</td>
+<td>-1</td>
+</tr>
+<tr>
+<th>22</th>
+<td>182</td>
+<td>Guinea</td>
+<td>0.465</td>
+<td>58.8922</td>
+<td>9.805297</td>
+<td>2.202126</td>
+<td>2480.887182</td>
+<td>-13</td>
+</tr>
+<tr>
+<th>23</th>
+<td>183</td>
+<td>Yemen</td>
+<td>0.455</td>
+<td>63.7534</td>
+<td>9.098710</td>
+<td>3.200000</td>
+<td>1314.270189</td>
+<td>1</td>
+</tr>
+<tr>
+<th>24</th>
+<td>184</td>
+<td>Burkina Faso</td>
+<td>0.449</td>
+<td>59.2696</td>
+<td>9.142100</td>
+<td>2.114962</td>
+<td>2117.915916</td>
+<td>-8</td>
+</tr>
+<tr>
+<th>25</th>
+<td>185</td>
+<td>Mozambique</td>
+<td>0.446</td>
+<td>59.3247</td>
+<td>10.219152</td>
+<td>3.197642</td>
+<td>1198.073924</td>
+<td>2</td>
+</tr>
+<tr>
+<th>26</th>
+<td>186</td>
+<td>Mali</td>
+<td>0.428</td>
+<td>58.9414</td>
+<td>7.423038</td>
+<td>2.310000</td>
+<td>2132.629443</td>
+<td>-11</td>
+</tr>
+<tr>
+<th>27</th>
+<td>187</td>
+<td>Burundi</td>
+<td>0.426</td>
+<td>61.6627</td>
+<td>10.722722</td>
+<td>3.129267</td>
+<td>731.786709</td>
+<td>4</td>
+</tr>
+<tr>
+<th>28</th>
+<td>188</td>
+<td>Central African Republic</td>
+<td>0.404</td>
+<td>53.8947</td>
+<td>8.040172</td>
+<td>4.334000</td>
+<td>966.058611</td>
+<td>1</td>
+</tr>
+<tr>
+<th>29</th>
+<td>189</td>
+<td>Niger</td>
+<td>0.400</td>
+<td>61.5763</td>
+<td>6.957112</td>
+<td>2.116717</td>
+<td>1239.866936</td>
+<td>-3</td>
+</tr>
+<tr>
+<th>30</th>
+<td>190</td>
+<td>Chad</td>
+<td>0.394</td>
+<td>52.5254</td>
+<td>8.035914</td>
+<td>2.573774</td>
+<td>1364.169417</td>
+<td>-7</td>
+</tr>
+<tr>
+<th>31</th>
+<td>191</td>
+<td>South Sudan</td>
+<td>0.385</td>
+<td>54.9752</td>
+<td>5.542510</td>
+<td>5.726140</td>
+<td>767.787000</td>
+<td>-1</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=a2d6a92e-27d4-4569-9810-d9929a743083">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [27]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">list_df</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="n">cuarto_df</span>
+<span class="n">list_df</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>&lt;class 'pandas.core.frame.DataFrame'&gt;
+RangeIndex: 32 entries, 0 to 31
+Data columns (total 8 columns):
+ #   Column                                  Non-Null Count  Dtype  
+---  ------                                  --------------  -----  
+ 0   HDI rank                                32 non-null     int64  
+ 1   Country                                 32 non-null     object 
+ 2   Human Development Index (HDI)           32 non-null     float64
+ 3   Life expectancy at birth                32 non-null     float64
+ 4   Expected years of schooling             32 non-null     float64
+ 5   Mean years of schooling                 32 non-null     float64
+ 6   Gross national income (GNI) per capita  32 non-null     float64
+ 7   GNI per capita rank minus HDI rank      32 non-null     int64  
+dtypes: float64(5), int64(2), object(1)
+memory usage: 2.1+ KB
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=f36871dd-bdfd-48a9-bd07-42d19e380748">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [28]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">df</span> <span class="ow">in</span> <span class="n">list_df</span><span class="p">:</span>
+    <span class="n">df</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=d50a9218-5f73-47d9-a07b-11b090d68dea">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [29]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">nombres_columnas</span><span class="o">=</span><span class="p">[]</span>
@@ -7686,26 +12787,72 @@ File <span class="ansi-green-intense-fg ansi-bold">D:\Anaconda\envs\my_environme
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=17d1f96a-ceb5-4aa5-8343-c7912496fba1">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=dbc1d7be-cf13-4356-944b-457943537b4f">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [30]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">cols</span><span class="p">)</span> <span class="k">for</span> <span class="n">cols</span> <span class="ow">in</span> <span class="n">nombres_columnas</span><span class="p">]</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">nombres_columnas</span>
 </pre></div>
 </div>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=a7ad4299-4854-4ae9-bcaf-1bf4d0570825">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[30]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>[{'Country',
+  'Expected years of schooling',
+  'GNI per capita rank minus HDI rank',
+  'Gross national income (GNI) per capita',
+  'HDI rank',
+  'HDI rank.1',
+  'Human Development Index (HDI)',
+  'Life expectancy at birth',
+  'Mean years of schooling'},
+ {'Country',
+  'Expected years of schooling',
+  'GNI per capita rank minus HDI rank',
+  'Gross national income (GNI) per capita',
+  'HDI rank',
+  'HDI rank.1',
+  'Human Development Index (HDI)',
+  'Life expectancy at birth',
+  'Mean years of schooling'},
+ {'Country',
+  'Expected years of schooling',
+  'GNI per capita rank minus HDI rank',
+  'Gross national income (GNI) per capita',
+  'HDI rank',
+  'HDI rank.1',
+  'Human Development Index (HDI)',
+  'Life expectancy at birth',
+  'Mean years of schooling'},
+ {'Country',
+  'Expected years of schooling',
+  'GNI per capita rank minus HDI rank',
+  'Gross national income (GNI) per capita',
+  'HDI rank',
+  'Human Development Index (HDI)',
+  'Life expectancy at birth',
+  'Mean years of schooling'}]</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=b223d2e8-2f0f-43be-b740-c52fba121e2a">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [31]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">columnas_igual</span><span class="o">=</span><span class="nb">set</span><span class="o">.</span><span class="n">intersection</span><span class="p">(</span><span class="o">*</span><span class="n">nombres_columnas</span><span class="p">)</span> <span class="c1"># expanding list of sets (*)</span>
@@ -7715,109 +12862,1624 @@ File <span class="ansi-green-intense-fg ansi-bold">D:\Anaconda\envs\my_environme
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=c035700b-0505-4aec-971c-9ab25d1a2c4c">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[31]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>(8,
+ {'Country',
+  'Expected years of schooling',
+  'GNI per capita rank minus HDI rank',
+  'Gross national income (GNI) per capita',
+  'HDI rank',
+  'Human Development Index (HDI)',
+  'Life expectancy at birth',
+  'Mean years of schooling'})</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=c4c1d8da-9944-4996-9f06-5410237b089c">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [32]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">nombres_columnas</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#creando el dataframe con los nombres de columnas iguales</span>
+<span class="n">df_igual_col</span><span class="o">=</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span><span class="nb">list</span><span class="p">(</span><span class="n">columnas_igual</span><span class="p">)]</span> <span class="k">for</span> <span class="n">df</span> <span class="ow">in</span> <span class="n">list_df</span><span class="p">]</span>
+<span class="n">df_final</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">(</span><span class="n">df_igual_col</span><span class="p">)</span>
+<span class="n">df_final</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=1c8b2336-ed3e-4a38-a584-07acee791a03">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[32]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>Human Development Index (HDI)</th>
+<th>Life expectancy at birth</th>
+<th>Country</th>
+<th>HDI rank</th>
+<th>Expected years of schooling</th>
+<th>GNI per capita rank minus HDI rank</th>
+<th>Gross national income (GNI) per capita</th>
+<th>Mean years of schooling</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>0.962</td>
+<td>83.9872</td>
+<td>Switzerland</td>
+<td>1</td>
+<td>16.500299</td>
+<td>5</td>
+<td>66933.00454</td>
+<td>13.85966</td>
+</tr>
+<tr>
+<th>1</th>
+<td>0.961</td>
+<td>83.2339</td>
+<td>Norway</td>
+<td>2</td>
+<td>18.1852</td>
+<td>6</td>
+<td>64660.10622</td>
+<td>13.00363</td>
+</tr>
+<tr>
+<th>2</th>
+<td>0.959</td>
+<td>82.6782</td>
+<td>Iceland</td>
+<td>3</td>
+<td>19.163059</td>
+<td>11</td>
+<td>55782.04981</td>
+<td>13.76717</td>
+</tr>
+<tr>
+<th>3</th>
+<td>0.952</td>
+<td>85.4734</td>
+<td>Hong Kong, China (SAR)</td>
+<td>4</td>
+<td>17.27817</td>
+<td>6</td>
+<td>62606.8454</td>
+<td>12.22621</td>
+</tr>
+<tr>
+<th>4</th>
+<td>0.951</td>
+<td>84.5265</td>
+<td>Australia</td>
+<td>5</td>
+<td>21.05459</td>
+<td>18</td>
+<td>49238.43335</td>
+<td>12.72682</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=a6683d21-6c6b-43b1-a82d-26f2632baf31">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [33]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#comenzamos corrigiendo el primer dataframe</span>
-<span class="n">list_df</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">df_final</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=0765937b-b070-4da4-9d98-8aa3274da414">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>&lt;class 'pandas.core.frame.DataFrame'&gt;
+Index: 191 entries, 0 to 31
+Data columns (total 8 columns):
+ #   Column                                  Non-Null Count  Dtype 
+---  ------                                  --------------  ----- 
+ 0   Human Development Index (HDI)           191 non-null    object
+ 1   Life expectancy at birth                191 non-null    object
+ 2   Country                                 191 non-null    object
+ 3   HDI rank                                191 non-null    object
+ 4   Expected years of schooling             191 non-null    object
+ 5   GNI per capita rank minus HDI rank      191 non-null    object
+ 6   Gross national income (GNI) per capita  191 non-null    object
+ 7   Mean years of schooling                 191 non-null    object
+dtypes: object(8)
+memory usage: 13.4+ KB
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=757a0a1f-66fb-4985-a389-4ec0d343f4e4">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [34]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">nuevos_nombres_col</span> <span class="o">=</span> <span class="n">list_df</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span>
-<span class="n">list_df</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="n">nuevos_nombres_col</span>
-<span class="n">list_df</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">columns</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">df_final</span><span class="p">[</span><span class="s1">'HDI rank'</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_final</span><span class="p">[</span><span class="s1">'HDI rank'</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+<span class="n">df_final</span><span class="p">[</span><span class="s1">'GNI per capita rank minus HDI rank'</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_final</span><span class="p">[</span><span class="s1">'GNI per capita rank minus HDI rank'</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span>
+<span class="n">df_final</span><span class="p">[</span><span class="s1">'Human Development Index (HDI)'</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_final</span><span class="p">[</span><span class="s1">'Human Development Index (HDI)'</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span>
+<span class="n">df_final</span><span class="p">[</span><span class="s1">'Expected years of schooling'</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_final</span><span class="p">[</span><span class="s1">'Expected years of schooling'</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span>
+<span class="n">df_final</span><span class="p">[</span><span class="s1">'Life expectancy at birth'</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_final</span><span class="p">[</span><span class="s1">'Life expectancy at birth'</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span>
+<span class="n">df_final</span><span class="p">[</span><span class="s1">'Gross national income (GNI) per capita'</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_final</span><span class="p">[</span><span class="s1">'Gross national income (GNI) per capita'</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span>
+<span class="n">df_final</span><span class="p">[</span><span class="s1">'Mean years of schooling'</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_final</span><span class="p">[</span><span class="s1">'Mean years of schooling'</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span>
+<span class="n">df_final</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=bd18a04e-bbfd-4fef-873e-25b3dfc39506">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>&lt;class 'pandas.core.frame.DataFrame'&gt;
+Index: 191 entries, 0 to 31
+Data columns (total 8 columns):
+ #   Column                                  Non-Null Count  Dtype  
+---  ------                                  --------------  -----  
+ 0   Human Development Index (HDI)           191 non-null    float64
+ 1   Life expectancy at birth                191 non-null    float64
+ 2   Country                                 191 non-null    object 
+ 3   HDI rank                                191 non-null    int32  
+ 4   Expected years of schooling             191 non-null    float64
+ 5   GNI per capita rank minus HDI rank      191 non-null    float64
+ 6   Gross national income (GNI) per capita  191 non-null    float64
+ 7   Mean years of schooling                 191 non-null    float64
+dtypes: float64(6), int32(1), object(1)
+memory usage: 12.7+ KB
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=f8efb5aa-14b1-4b8f-8308-dec02dff489f">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [35]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">list_df</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">df_final</span><span class="o">.</span><span class="n">columns</span><span class="o">=</span><span class="n">df_final</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">'\s'</span><span class="p">,</span><span class="s2">""</span><span class="p">,</span><span class="n">regex</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">df_final</span>
 </pre></div>
 </div>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=1969bd6b-93b9-45a3-870c-72a34f99d497">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[35]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>HumanDevelopmentIndex(HDI)</th>
+<th>Lifeexpectancyatbirth</th>
+<th>Country</th>
+<th>HDIrank</th>
+<th>Expectedyearsofschooling</th>
+<th>GNIpercapitarankminusHDIrank</th>
+<th>Grossnationalincome(GNI)percapita</th>
+<th>Meanyearsofschooling</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>0.962</td>
+<td>83.9872</td>
+<td>Switzerland</td>
+<td>1</td>
+<td>16.500299</td>
+<td>5.0</td>
+<td>66933.004540</td>
+<td>13.859660</td>
+</tr>
+<tr>
+<th>1</th>
+<td>0.961</td>
+<td>83.2339</td>
+<td>Norway</td>
+<td>2</td>
+<td>18.185200</td>
+<td>6.0</td>
+<td>64660.106220</td>
+<td>13.003630</td>
+</tr>
+<tr>
+<th>2</th>
+<td>0.959</td>
+<td>82.6782</td>
+<td>Iceland</td>
+<td>3</td>
+<td>19.163059</td>
+<td>11.0</td>
+<td>55782.049810</td>
+<td>13.767170</td>
+</tr>
+<tr>
+<th>3</th>
+<td>0.952</td>
+<td>85.4734</td>
+<td>Hong Kong, China (SAR)</td>
+<td>4</td>
+<td>17.278170</td>
+<td>6.0</td>
+<td>62606.845400</td>
+<td>12.226210</td>
+</tr>
+<tr>
+<th>4</th>
+<td>0.951</td>
+<td>84.5265</td>
+<td>Australia</td>
+<td>5</td>
+<td>21.054590</td>
+<td>18.0</td>
+<td>49238.433350</td>
+<td>12.726820</td>
+</tr>
+<tr>
+<th>...</th>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr>
+<th>27</th>
+<td>0.426</td>
+<td>61.6627</td>
+<td>Burundi</td>
+<td>187</td>
+<td>10.722722</td>
+<td>4.0</td>
+<td>731.786709</td>
+<td>3.129267</td>
+</tr>
+<tr>
+<th>28</th>
+<td>0.404</td>
+<td>53.8947</td>
+<td>Central African Republic</td>
+<td>188</td>
+<td>8.040172</td>
+<td>1.0</td>
+<td>966.058611</td>
+<td>4.334000</td>
+</tr>
+<tr>
+<th>29</th>
+<td>0.400</td>
+<td>61.5763</td>
+<td>Niger</td>
+<td>189</td>
+<td>6.957112</td>
+<td>-3.0</td>
+<td>1239.866936</td>
+<td>2.116717</td>
+</tr>
+<tr>
+<th>30</th>
+<td>0.394</td>
+<td>52.5254</td>
+<td>Chad</td>
+<td>190</td>
+<td>8.035914</td>
+<td>-7.0</td>
+<td>1364.169417</td>
+<td>2.573774</td>
+</tr>
+<tr>
+<th>31</th>
+<td>0.385</td>
+<td>54.9752</td>
+<td>South Sudan</td>
+<td>191</td>
+<td>5.542510</td>
+<td>-1.0</td>
+<td>767.787000</td>
+<td>5.726140</td>
+</tr>
+</tbody>
+</table>
+<p>191 rows × 8 columns</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=799a3798-f1a7-41ba-9633-70827cc93ec8">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [36]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#Corrigiendo el segundo dataframe</span>
-<span class="n">list_df</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">df_final</span><span class="o">.</span><span class="n">Country</span><span class="o">=</span><span class="n">df_final</span><span class="o">.</span><span class="n">Country</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span>
+<span class="c1">#df_final.set_index(['Country','HDIrank'],inplace=True)</span>
+<span class="c1">#df_final.head()</span>
 </pre></div>
 </div>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=18b016ef-570a-4f5c-83eb-2fb9d6a550fc">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=f7188452-232f-42dc-bdf2-e02fceee2b5d">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [37]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="o">!</span>pip<span class="w"> </span>install<span class="w"> </span>pandas
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#-----------------------PREGUNTA 2-------------------------------------</span>
 </pre></div>
 </div>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=f52c3694-fb5c-49bd-9865-5857dc44910d">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=ba596d83-196d-4d59-99c3-0da92520fba0">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [38]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#Corrigiendo el tercer dataframe</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#df_final = df_final.rename(columns={'Country': 'name'})</span>
+<span class="n">link_2</span><span class="o">=</span><span class="s1">'https://github.com/Luis9193/Tarea_calificada_3/raw/main/countryCODES.xlsx'</span>
+<span class="n">df_2</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_excel</span><span class="p">(</span><span class="n">link_2</span><span class="p">)</span>
+<span class="n">df_2</span>
 </pre></div>
 </div>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=870e9e35-a08c-436e-8efc-1598811edd82">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[38]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>Country</th>
+<th>Officialstatename</th>
+<th>InternetccTLD</th>
+<th>iso2</th>
+<th>iso3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>AFGHANISTAN</td>
+<td>The Islamic Republic of Afghanistan</td>
+<td>.af</td>
+<td>AF</td>
+<td>AFG</td>
+</tr>
+<tr>
+<th>1</th>
+<td>ALBANIA</td>
+<td>The Republic of Albania</td>
+<td>.al</td>
+<td>AL</td>
+<td>ALB</td>
+</tr>
+<tr>
+<th>2</th>
+<td>ALGERIA</td>
+<td>The People's Democratic Republic of Algeria</td>
+<td>.dz</td>
+<td>DZ</td>
+<td>DZA</td>
+</tr>
+<tr>
+<th>3</th>
+<td>ANGOLA</td>
+<td>The Republic of Angola</td>
+<td>.ao</td>
+<td>AO</td>
+<td>AGO</td>
+</tr>
+<tr>
+<th>4</th>
+<td>ANTIGUA AND BARBUDA</td>
+<td>Antigua and Barbuda</td>
+<td>.ag</td>
+<td>AG</td>
+<td>ATG</td>
+</tr>
+<tr>
+<th>...</th>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr>
+<th>166</th>
+<td>UZBEKISTAN</td>
+<td>The Republic of Uzbekistan</td>
+<td>.uz</td>
+<td>UZ</td>
+<td>UZB</td>
+</tr>
+<tr>
+<th>167</th>
+<td>VIET NAM</td>
+<td>The Socialist Republic of Viet Nam</td>
+<td>.vn</td>
+<td>VN</td>
+<td>VNM</td>
+</tr>
+<tr>
+<th>168</th>
+<td>YEMEN</td>
+<td>The Republic of Yemen</td>
+<td>.ye</td>
+<td>YE</td>
+<td>YEM</td>
+</tr>
+<tr>
+<th>169</th>
+<td>ZAMBIA</td>
+<td>The Republic of Zambia</td>
+<td>.zm</td>
+<td>ZM</td>
+<td>ZMB</td>
+</tr>
+<tr>
+<th>170</th>
+<td>ZIMBABWE</td>
+<td>The Republic of Zimbabwe</td>
+<td>.zw</td>
+<td>ZW</td>
+<td>ZWE</td>
+</tr>
+</tbody>
+</table>
+<p>171 rows × 5 columns</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=055ab160-9745-4add-ba4a-7f87893eb9f7">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [39]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">df_final</span><span class="o">.</span><span class="n">shape</span><span class="p">,</span><span class="n">df_2</span><span class="o">.</span><span class="n">shape</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[39]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>((191, 8), (171, 5))</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=6bad4b77-888c-4f9e-887a-d98b2f21e7c4">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [43]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">onlydf1</span><span class="o">=</span><span class="nb">set</span><span class="p">(</span><span class="n">df_final</span><span class="o">.</span><span class="n">Country</span><span class="p">)</span><span class="o">-</span><span class="nb">set</span><span class="p">(</span><span class="n">df_2</span><span class="o">.</span><span class="n">Country</span><span class="p">)</span>
+<span class="n">onlydf1</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[43]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>{'ANDORRA',
+ 'BAHAMAS',
+ 'CENTRAL AFRICAN REPUBLIC',
+ 'COMOROS',
+ 'CONGO',
+ 'CONGO (DEMOCRATIC REPUBLIC OF THE)',
+ "CÔTE D'IVOIRE",
+ 'DOMINICA',
+ 'DOMINICAN REPUBLIC',
+ 'ERITREA',
+ 'ESWATINI (KINGDOM OF)',
+ 'GAMBIA',
+ 'HONG KONG, CHINA (SAR)',
+ 'ISRAEL',
+ 'KIRIBATI',
+ 'KOREA (REPUBLIC OF)',
+ "LAO PEOPLE'S DEMOCRATIC REPUBLIC",
+ 'LIECHTENSTEIN',
+ 'MARSHALL ISLANDS',
+ 'MOLDOVA (REPUBLIC OF)',
+ 'NETHERLANDS',
+ 'NIGER',
+ 'PALAU',
+ 'PALESTINE, STATE OF',
+ 'PHILIPPINES',
+ 'RUSSIAN FEDERATION',
+ 'SAINT KITTS AND NEVIS',
+ 'SAINT LUCIA',
+ 'SAINT VINCENT AND THE GRENADINES',
+ 'SAN MARINO',
+ 'SOUTH AFRICA',
+ 'SUDAN',
+ 'SYRIAN ARAB REPUBLIC',
+ 'TANZANIA (UNITED REPUBLIC OF)',
+ 'TONGA',
+ 'TUVALU',
+ 'TÜRKIYE',
+ 'UNITED ARAB EMIRATES',
+ 'UNITED KINGDOM',
+ 'UNITED STATES',
+ 'VANUATU',
+ 'VENEZUELA (BOLIVARIAN REPUBLIC OF)'}</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=cc16e56c-53e6-4017-84ad-4171912724ca">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [44]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">onlydf2</span><span class="o">=</span><span class="nb">set</span><span class="p">(</span><span class="n">df_2</span><span class="o">.</span><span class="n">Country</span><span class="p">)</span><span class="o">-</span><span class="nb">set</span><span class="p">(</span><span class="n">df_final</span><span class="o">.</span><span class="n">Country</span><span class="p">)</span>
+<span class="n">onlydf2</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[44]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>{'BAHAMAS (THE)',
+ 'CENTRAL AFRICAN REPUBLIC (THE)',
+ 'COMOROS (THE)',
+ 'CONGO (THE DEMOCRATIC REPUBLIC OF THE)',
+ 'CONGO (THE)',
+ "C√îTE D'IVOIRE",
+ 'DOMINICAN REPUBLIC (THE)',
+ 'ESWATINI',
+ 'GAMBIA (THE)',
+ 'KOREA (THE REPUBLIC OF)',
+ "LAO PEOPLE'S DEMOCRATIC REPUBLIC (THE)",
+ 'MOLDOVA (THE REPUBLIC OF)',
+ 'NETHERLANDS (THE)',
+ 'NIGER (THE)',
+ 'PHILIPPINES (THE)',
+ 'RUSSIAN FEDERATION (THE)',
+ 'SUDAN (THE)',
+ 'TANZANIA, THE UNITED REPUBLIC OF',
+ 'TURKEY',
+ 'UNITED ARAB EMIRATES (THE)',
+ 'UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND (THE)',
+ 'UNITED STATES MINOR OUTLYING ISLANDS (THE)'}</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=f60e536a-2793-4046-8b3f-75da9ff728e1">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [45]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">thefuzz</span> <span class="kn">import</span> <span class="n">process</span> <span class="k">as</span> <span class="n">fz</span>
+
+<span class="c1"># take a country from OnlyFragile</span>
+<span class="c1"># look for a country in OnlyCia and return the most similar</span>
+<span class="p">[(</span><span class="n">c</span><span class="p">,</span><span class="n">fz</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">c</span><span class="p">,</span><span class="n">onlydf1</span> <span class="p">))</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">onlydf2</span><span class="p">)]</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[45]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>[('BAHAMAS (THE)', ('BAHAMAS', 90)),
+ ('CENTRAL AFRICAN REPUBLIC (THE)', ('CENTRAL AFRICAN REPUBLIC', 95)),
+ ('COMOROS (THE)', ('COMOROS', 90)),
+ ('CONGO (THE DEMOCRATIC REPUBLIC OF THE)',
+  ('CONGO (DEMOCRATIC REPUBLIC OF THE)', 95)),
+ ('CONGO (THE)', ('CONGO', 90)),
+ ("C√îTE D'IVOIRE", ("CÔTE D'IVOIRE", 96)),
+ ('DOMINICAN REPUBLIC (THE)', ('DOMINICAN REPUBLIC', 95)),
+ ('ESWATINI', ('ESWATINI (KINGDOM OF)', 90)),
+ ('GAMBIA (THE)', ('GAMBIA', 90)),
+ ('KOREA (THE REPUBLIC OF)', ('KOREA (REPUBLIC OF)', 95)),
+ ("LAO PEOPLE'S DEMOCRATIC REPUBLIC (THE)",
+  ("LAO PEOPLE'S DEMOCRATIC REPUBLIC", 95)),
+ ('MOLDOVA (THE REPUBLIC OF)', ('MOLDOVA (REPUBLIC OF)', 95)),
+ ('NETHERLANDS (THE)', ('NETHERLANDS', 95)),
+ ('NIGER (THE)', ('NIGER', 90)),
+ ('PHILIPPINES (THE)', ('PHILIPPINES', 95)),
+ ('RUSSIAN FEDERATION (THE)', ('RUSSIAN FEDERATION', 95)),
+ ('SUDAN (THE)', ('SUDAN', 90)),
+ ('TANZANIA, THE UNITED REPUBLIC OF', ('TANZANIA (UNITED REPUBLIC OF)', 95)),
+ ('TURKEY', ('TÜRKIYE', 67)),
+ ('UNITED ARAB EMIRATES (THE)', ('UNITED ARAB EMIRATES', 95)),
+ ('UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND (THE)',
+  ('UNITED KINGDOM', 90)),
+ ('UNITED STATES MINOR OUTLYING ISLANDS (THE)', ('UNITED STATES', 90))]</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=41c11d45-d94c-427d-9d2f-30b7dd9b6b60">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [46]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="p">[(</span><span class="n">c</span><span class="p">,</span><span class="n">fz</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="n">onlydf1</span><span class="p">))</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">onlydf2</span><span class="p">)</span>
+ <span class="k">if</span> <span class="n">fz</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="n">onlydf1</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="o">&gt;</span><span class="mi">88</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[46]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>[('BAHAMAS (THE)', ('BAHAMAS', 90)),
+ ('CENTRAL AFRICAN REPUBLIC (THE)', ('CENTRAL AFRICAN REPUBLIC', 95)),
+ ('COMOROS (THE)', ('COMOROS', 90)),
+ ('CONGO (THE DEMOCRATIC REPUBLIC OF THE)',
+  ('CONGO (DEMOCRATIC REPUBLIC OF THE)', 95)),
+ ('CONGO (THE)', ('CONGO', 90)),
+ ("C√îTE D'IVOIRE", ("CÔTE D'IVOIRE", 96)),
+ ('DOMINICAN REPUBLIC (THE)', ('DOMINICAN REPUBLIC', 95)),
+ ('ESWATINI', ('ESWATINI (KINGDOM OF)', 90)),
+ ('GAMBIA (THE)', ('GAMBIA', 90)),
+ ('KOREA (THE REPUBLIC OF)', ('KOREA (REPUBLIC OF)', 95)),
+ ("LAO PEOPLE'S DEMOCRATIC REPUBLIC (THE)",
+  ("LAO PEOPLE'S DEMOCRATIC REPUBLIC", 95)),
+ ('MOLDOVA (THE REPUBLIC OF)', ('MOLDOVA (REPUBLIC OF)', 95)),
+ ('NETHERLANDS (THE)', ('NETHERLANDS', 95)),
+ ('NIGER (THE)', ('NIGER', 90)),
+ ('PHILIPPINES (THE)', ('PHILIPPINES', 95)),
+ ('RUSSIAN FEDERATION (THE)', ('RUSSIAN FEDERATION', 95)),
+ ('SUDAN (THE)', ('SUDAN', 90)),
+ ('TANZANIA, THE UNITED REPUBLIC OF', ('TANZANIA (UNITED REPUBLIC OF)', 95)),
+ ('UNITED ARAB EMIRATES (THE)', ('UNITED ARAB EMIRATES', 95)),
+ ('UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND (THE)',
+  ('UNITED KINGDOM', 90)),
+ ('UNITED STATES MINOR OUTLYING ISLANDS (THE)', ('UNITED STATES', 90))]</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=0b4367ae-3b12-415f-8580-d175125121d4">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [47]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">changes_df</span><span class="o">=</span><span class="p">{</span><span class="n">c</span><span class="p">:</span><span class="n">fz</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="n">onlydf1</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+                 <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">onlydf2</span><span class="p">)</span>
+                 <span class="k">if</span> <span class="n">fz</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="n">onlydf1</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span> <span class="o">&gt;</span><span class="mi">88</span><span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=a41e018e-3ab5-4e63-b453-3cebd73dd9cc">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [48]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">df_2</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">to_replace</span><span class="o">=</span><span class="p">{</span><span class="s1">'Country'</span><span class="p">:</span><span class="n">changes_df</span><span class="p">},</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">df_2</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[48]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>Country</th>
+<th>Officialstatename</th>
+<th>InternetccTLD</th>
+<th>iso2</th>
+<th>iso3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>AFGHANISTAN</td>
+<td>The Islamic Republic of Afghanistan</td>
+<td>.af</td>
+<td>AF</td>
+<td>AFG</td>
+</tr>
+<tr>
+<th>1</th>
+<td>ALBANIA</td>
+<td>The Republic of Albania</td>
+<td>.al</td>
+<td>AL</td>
+<td>ALB</td>
+</tr>
+<tr>
+<th>2</th>
+<td>ALGERIA</td>
+<td>The People's Democratic Republic of Algeria</td>
+<td>.dz</td>
+<td>DZ</td>
+<td>DZA</td>
+</tr>
+<tr>
+<th>3</th>
+<td>ANGOLA</td>
+<td>The Republic of Angola</td>
+<td>.ao</td>
+<td>AO</td>
+<td>AGO</td>
+</tr>
+<tr>
+<th>4</th>
+<td>ANTIGUA AND BARBUDA</td>
+<td>Antigua and Barbuda</td>
+<td>.ag</td>
+<td>AG</td>
+<td>ATG</td>
+</tr>
+<tr>
+<th>...</th>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr>
+<th>166</th>
+<td>UZBEKISTAN</td>
+<td>The Republic of Uzbekistan</td>
+<td>.uz</td>
+<td>UZ</td>
+<td>UZB</td>
+</tr>
+<tr>
+<th>167</th>
+<td>VIET NAM</td>
+<td>The Socialist Republic of Viet Nam</td>
+<td>.vn</td>
+<td>VN</td>
+<td>VNM</td>
+</tr>
+<tr>
+<th>168</th>
+<td>YEMEN</td>
+<td>The Republic of Yemen</td>
+<td>.ye</td>
+<td>YE</td>
+<td>YEM</td>
+</tr>
+<tr>
+<th>169</th>
+<td>ZAMBIA</td>
+<td>The Republic of Zambia</td>
+<td>.zm</td>
+<td>ZM</td>
+<td>ZMB</td>
+</tr>
+<tr>
+<th>170</th>
+<td>ZIMBABWE</td>
+<td>The Republic of Zimbabwe</td>
+<td>.zw</td>
+<td>ZW</td>
+<td>ZWE</td>
+</tr>
+</tbody>
+</table>
+<p>171 rows × 5 columns</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=cef6723f-900f-4c65-b308-fdd140509667">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [49]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#-----------------------PREGUNTA 3-------------------------------------</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=fa6dc43a-0ac5-423e-9ad4-1db76c511797">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [50]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">link_3</span> <span class="o">=</span> <span class="s1">'https://github.com/Luis9193/Tarea_calificada_3/raw/main/fallecidosCOVID.csv'</span>
+<span class="n">data_rip</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">link_3</span><span class="p">)</span>
+<span class="n">data_rip</span><span class="o">.</span><span class="n">columns</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[50]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>Index(['FECHA_CORTE;FECHA_FALLECIMIENTO;EDAD_DECLARADA;SEXO;CLASIFICACION_DEF;DEPARTAMENTO;PROVINCIA;DISTRITO;UBIGEO;UUID'], dtype='object')</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=cbc094a7-b43a-42f3-8868-7e5cc5177575">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [51]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">new_nom</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'FECHA_CORTE'</span><span class="p">,</span> <span class="s1">'FECHA_FALLECIMIENTO'</span><span class="p">,</span> <span class="s1">'EDAD_DECLARADA'</span><span class="p">,</span> <span class="s1">'SEXO'</span><span class="p">,</span> <span class="s1">'CLASIFICACION_DEF'</span><span class="p">,</span> <span class="s1">'DEPARTAMENTO'</span><span class="p">,</span> <span class="s1">'PROVINCIA'</span><span class="p">,</span> <span class="s1">'DISTRITO'</span><span class="p">,</span> <span class="s1">'UBIGEO'</span><span class="p">,</span> <span class="s1">'UUID'</span><span class="p">]</span>
+<span class="n">nom_col</span><span class="o">=</span> <span class="s1">'FECHA_CORTE;FECHA_FALLECIMIENTO;EDAD_DECLARADA;SEXO;CLASIFICACION_DEF;DEPARTAMENTO;PROVINCIA;DISTRITO;UBIGEO;UUID'</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=f12c8209-a47d-44fb-ab59-8200df560a48">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [52]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">data_rip</span><span class="p">[</span><span class="n">new_nom</span><span class="p">]</span> <span class="o">=</span> <span class="n">data_rip</span><span class="p">[</span><span class="n">nom_col</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">';'</span><span class="p">,</span> <span class="n">expand</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">data_rip</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[52]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>FECHA_CORTE;FECHA_FALLECIMIENTO;EDAD_DECLARADA;SEXO;CLASIFICACION_DEF;DEPARTAMENTO;PROVINCIA;DISTRITO;UBIGEO;UUID</th>
+<th>FECHA_CORTE</th>
+<th>FECHA_FALLECIMIENTO</th>
+<th>EDAD_DECLARADA</th>
+<th>SEXO</th>
+<th>CLASIFICACION_DEF</th>
+<th>DEPARTAMENTO</th>
+<th>PROVINCIA</th>
+<th>DISTRITO</th>
+<th>UBIGEO</th>
+<th>UUID</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>20240317;20220219;63;MASCULINO;Criterio viroló...</td>
+<td>20240317</td>
+<td>20220219</td>
+<td>63</td>
+<td>MASCULINO</td>
+<td>Criterio virológico</td>
+<td>TUMBES</td>
+<td>TUMBES</td>
+<td>TUMBES</td>
+<td>240101</td>
+<td>203506</td>
+</tr>
+<tr>
+<th>1</th>
+<td>20240317;20210529;74;MASCULINO;Criterio viroló...</td>
+<td>20240317</td>
+<td>20210529</td>
+<td>74</td>
+<td>MASCULINO</td>
+<td>Criterio virológico</td>
+<td>TUMBES</td>
+<td>TUMBES</td>
+<td>TUMBES</td>
+<td>240101</td>
+<td>203532</td>
+</tr>
+<tr>
+<th>2</th>
+<td>20240317;20210623;72;FEMENINO;Criterio SINADEF...</td>
+<td>20240317</td>
+<td>20210623</td>
+<td>72</td>
+<td>FEMENINO</td>
+<td>Criterio SINADEF</td>
+<td>TACNA</td>
+<td>TACNA</td>
+<td>ALTO DE LA ALIANZA</td>
+<td>230102</td>
+<td>203584</td>
+</tr>
+<tr>
+<th>3</th>
+<td>20240317;20210824;85;MASCULINO;Criterio invest...</td>
+<td>20240317</td>
+<td>20210824</td>
+<td>85</td>
+<td>MASCULINO</td>
+<td>Criterio investigación Epidemiológica</td>
+<td>TUMBES</td>
+<td>TUMBES</td>
+<td>TUMBES</td>
+<td>240101</td>
+<td>212541</td>
+</tr>
+<tr>
+<th>4</th>
+<td>20240317;20210627;46;MASCULINO;Criterio viroló...</td>
+<td>20240317</td>
+<td>20210627</td>
+<td>46</td>
+<td>MASCULINO</td>
+<td>Criterio virológico</td>
+<td>TACNA</td>
+<td>TACNA</td>
+<td>ALTO DE LA ALIANZA</td>
+<td>230102</td>
+<td>203665</td>
+</tr>
+<tr>
+<th>...</th>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr>
+<th>220913</th>
+<td>20240317;20200809;77;MASCULINO;Criterio radiol...</td>
+<td>20240317</td>
+<td>20200809</td>
+<td>77</td>
+<td>MASCULINO</td>
+<td>Criterio radiológico</td>
+<td>AREQUIPA</td>
+<td>AREQUIPA</td>
+<td>ALTO SELVA ALEGRE</td>
+<td>040102</td>
+<td></td>
+</tr>
+<tr>
+<th>220914</th>
+<td>20240317;20201028;81;MASCULINO;Criterio clínic...</td>
+<td>20240317</td>
+<td>20201028</td>
+<td>81</td>
+<td>MASCULINO</td>
+<td>Criterio clínico</td>
+<td>LAMBAYEQUE</td>
+<td>CHICLAYO</td>
+<td>CHICLAYO</td>
+<td>140101</td>
+<td></td>
+</tr>
+<tr>
+<th>220915</th>
+<td>20240317;20200515;68;FEMENINO;Criterio SINADEF...</td>
+<td>20240317</td>
+<td>20200515</td>
+<td>68</td>
+<td>FEMENINO</td>
+<td>Criterio SINADEF</td>
+<td>LIMA</td>
+<td>LIMA</td>
+<td>LA MOLINA</td>
+<td>150114</td>
+<td></td>
+</tr>
+<tr>
+<th>220916</th>
+<td>20240317;20210414;66;FEMENINO;Criterio clínico...</td>
+<td>20240317</td>
+<td>20210414</td>
+<td>66</td>
+<td>FEMENINO</td>
+<td>Criterio clínico</td>
+<td>LIMA</td>
+<td>LIMA</td>
+<td>LOS OLIVOS</td>
+<td>150117</td>
+<td></td>
+</tr>
+<tr>
+<th>220917</th>
+<td>20240317;20200819;61;MASCULINO;Criterio nexo e...</td>
+<td>20240317</td>
+<td>20200819</td>
+<td>61</td>
+<td>MASCULINO</td>
+<td>Criterio nexo epidemiológico</td>
+<td>PIURA</td>
+<td>PIURA</td>
+<td>TAMBO GRANDE</td>
+<td>200114</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>220918 rows × 11 columns</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=1c35e5d3-4f8b-425d-97bb-dbfb89c7b4d4">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [53]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">data_rip</span> <span class="o">=</span> <span class="n">data_rip</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">data_rip</span><span class="o">.</span><span class="n">columns</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">data_rip</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[53]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>FECHA_CORTE</th>
+<th>FECHA_FALLECIMIENTO</th>
+<th>EDAD_DECLARADA</th>
+<th>SEXO</th>
+<th>CLASIFICACION_DEF</th>
+<th>DEPARTAMENTO</th>
+<th>PROVINCIA</th>
+<th>DISTRITO</th>
+<th>UBIGEO</th>
+<th>UUID</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>20240317</td>
+<td>20220219</td>
+<td>63</td>
+<td>MASCULINO</td>
+<td>Criterio virológico</td>
+<td>TUMBES</td>
+<td>TUMBES</td>
+<td>TUMBES</td>
+<td>240101</td>
+<td>203506</td>
+</tr>
+<tr>
+<th>1</th>
+<td>20240317</td>
+<td>20210529</td>
+<td>74</td>
+<td>MASCULINO</td>
+<td>Criterio virológico</td>
+<td>TUMBES</td>
+<td>TUMBES</td>
+<td>TUMBES</td>
+<td>240101</td>
+<td>203532</td>
+</tr>
+<tr>
+<th>2</th>
+<td>20240317</td>
+<td>20210623</td>
+<td>72</td>
+<td>FEMENINO</td>
+<td>Criterio SINADEF</td>
+<td>TACNA</td>
+<td>TACNA</td>
+<td>ALTO DE LA ALIANZA</td>
+<td>230102</td>
+<td>203584</td>
+</tr>
+<tr>
+<th>3</th>
+<td>20240317</td>
+<td>20210824</td>
+<td>85</td>
+<td>MASCULINO</td>
+<td>Criterio investigación Epidemiológica</td>
+<td>TUMBES</td>
+<td>TUMBES</td>
+<td>TUMBES</td>
+<td>240101</td>
+<td>212541</td>
+</tr>
+<tr>
+<th>4</th>
+<td>20240317</td>
+<td>20210627</td>
+<td>46</td>
+<td>MASCULINO</td>
+<td>Criterio virológico</td>
+<td>TACNA</td>
+<td>TACNA</td>
+<td>ALTO DE LA ALIANZA</td>
+<td>230102</td>
+<td>203665</td>
+</tr>
+<tr>
+<th>...</th>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr>
+<th>220913</th>
+<td>20240317</td>
+<td>20200809</td>
+<td>77</td>
+<td>MASCULINO</td>
+<td>Criterio radiológico</td>
+<td>AREQUIPA</td>
+<td>AREQUIPA</td>
+<td>ALTO SELVA ALEGRE</td>
+<td>040102</td>
+<td></td>
+</tr>
+<tr>
+<th>220914</th>
+<td>20240317</td>
+<td>20201028</td>
+<td>81</td>
+<td>MASCULINO</td>
+<td>Criterio clínico</td>
+<td>LAMBAYEQUE</td>
+<td>CHICLAYO</td>
+<td>CHICLAYO</td>
+<td>140101</td>
+<td></td>
+</tr>
+<tr>
+<th>220915</th>
+<td>20240317</td>
+<td>20200515</td>
+<td>68</td>
+<td>FEMENINO</td>
+<td>Criterio SINADEF</td>
+<td>LIMA</td>
+<td>LIMA</td>
+<td>LA MOLINA</td>
+<td>150114</td>
+<td></td>
+</tr>
+<tr>
+<th>220916</th>
+<td>20240317</td>
+<td>20210414</td>
+<td>66</td>
+<td>FEMENINO</td>
+<td>Criterio clínico</td>
+<td>LIMA</td>
+<td>LIMA</td>
+<td>LOS OLIVOS</td>
+<td>150117</td>
+<td></td>
+</tr>
+<tr>
+<th>220917</th>
+<td>20240317</td>
+<td>20200819</td>
+<td>61</td>
+<td>MASCULINO</td>
+<td>Criterio nexo epidemiológico</td>
+<td>PIURA</td>
+<td>PIURA</td>
+<td>TAMBO GRANDE</td>
+<td>200114</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>220918 rows × 10 columns</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=33465c1a-59ef-4454-b644-fcf2176546ab">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [54]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">data_rip</span><span class="p">[</span><span class="s1">'FECHA_FALLECIMIENTO'</span><span class="p">]</span> <span class="o">=</span> <span class="n">data_rip</span><span class="p">[</span><span class="s1">'FECHA_FALLECIMIENTO'</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span>
+<span class="n">data_rip</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>&lt;class 'pandas.core.frame.DataFrame'&gt;
+RangeIndex: 220918 entries, 0 to 220917
+Data columns (total 10 columns):
+ #   Column               Non-Null Count   Dtype  
+---  ------               --------------   -----  
+ 0   FECHA_CORTE          220918 non-null  object 
+ 1   FECHA_FALLECIMIENTO  220918 non-null  float64
+ 2   EDAD_DECLARADA       220918 non-null  object 
+ 3   SEXO                 220918 non-null  object 
+ 4   CLASIFICACION_DEF    220918 non-null  object 
+ 5   DEPARTAMENTO         220918 non-null  object 
+ 6   PROVINCIA            220918 non-null  object 
+ 7   DISTRITO             220918 non-null  object 
+ 8   UBIGEO               220918 non-null  object 
+ 9   UUID                 220918 non-null  object 
+dtypes: float64(1), object(9)
+memory usage: 16.9+ MB
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=c94b6384-8f04-42bc-8de9-e11b90c717f6">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [55]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">data_rip</span><span class="p">[</span><span class="s1">'año'</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_numeric</span><span class="p">(</span><span class="n">data_rip</span><span class="p">[</span><span class="s1">'FECHA_FALLECIMIENTO'</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">slice</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">4</span><span class="p">),</span> <span class="n">errors</span><span class="o">=</span><span class="s1">'coerce'</span><span class="p">)</span>
+<span class="n">data_rip</span><span class="p">[</span><span class="s1">'mes'</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_numeric</span><span class="p">(</span><span class="n">data_rip</span><span class="p">[</span><span class="s1">'FECHA_FALLECIMIENTO'</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">slice</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">),</span> <span class="n">errors</span><span class="o">=</span><span class="s1">'coerce'</span><span class="p">)</span>
+<span class="n">data_rip_mes</span> <span class="o">=</span> <span class="n">data_rip</span><span class="p">[[</span><span class="s1">'año'</span><span class="p">,</span> <span class="s1">'mes'</span><span class="p">]]</span>
+<span class="n">data_rip_mes</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[55]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>año</th>
+<th>mes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>2022</td>
+<td>2</td>
+</tr>
+<tr>
+<th>1</th>
+<td>2021</td>
+<td>5</td>
+</tr>
+<tr>
+<th>2</th>
+<td>2021</td>
+<td>6</td>
+</tr>
+<tr>
+<th>3</th>
+<td>2021</td>
+<td>8</td>
+</tr>
+<tr>
+<th>4</th>
+<td>2021</td>
+<td>6</td>
+</tr>
+<tr>
+<th>...</th>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr>
+<th>220913</th>
+<td>2020</td>
+<td>8</td>
+</tr>
+<tr>
+<th>220914</th>
+<td>2020</td>
+<td>10</td>
+</tr>
+<tr>
+<th>220915</th>
+<td>2020</td>
+<td>5</td>
+</tr>
+<tr>
+<th>220916</th>
+<td>2021</td>
+<td>4</td>
+</tr>
+<tr>
+<th>220917</th>
+<td>2020</td>
+<td>8</td>
+</tr>
+</tbody>
+</table>
+<p>220918 rows × 2 columns</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=1fbfa8ba-632b-4389-8203-7f79930b3a4d">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7831,7 +14493,7 @@ File <span class="ansi-green-intense-fg ansi-bold">D:\Anaconda\envs\my_environme
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=5bf7c541-448a-444f-8a76-02dbb13bd4f9">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=b85ab9f7-fb31-44e7-8079-8397adf36f3f">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7839,13 +14501,13 @@ File <span class="ansi-green-intense-fg ansi-bold">D:\Anaconda\envs\my_environme
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#Corrigiendo el cuarto dataframe</span>
+<div class="highlight hl-ipython3"><pre><span></span> 
 </pre></div>
 </div>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=afa22655-5e0e-4c7e-bced-8f8e36fe1295">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=cd31ca69-e2d0-4a18-87d2-de34e9f55c75">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
